@@ -21,10 +21,10 @@
 }
 
 .article-card__content-text--left {
-  margin-right: var(--space-4x);
+  margin-right: var(--space-3x);
 }
 .article-card__content-text--right {
-  margin-left: var(--space-4x);
+  margin-left: var(--space-3x);
 }
 
 .article-card__title {

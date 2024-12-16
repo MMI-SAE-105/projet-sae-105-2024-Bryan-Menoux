@@ -30,3 +30,13 @@
   align-items: center;
   gap: var(--space-3x);
 }
+
+/* header class list event */
+
+.header__scrolled {
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    background-color: var(--colors-green-1);
+  }
+}
