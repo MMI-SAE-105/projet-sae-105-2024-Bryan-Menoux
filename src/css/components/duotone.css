@@ -13,24 +13,25 @@
   width: 100dvw;
   height: 100dvh;
   overflow: hidden;
-  background-color: #ade3a9;
+  background-color: #a4f5a0;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   img {
     width: auto;
-    height: 100vh;
+    height: 100%;
     filter: grayscale(100%);
     mix-blend-mode: multiply;
     display: block;
+    object-fit: fill;
   }
 }
 .hero__duotone::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #234703;
+  background-color: #1f4300;
   z-index: 1;
   mix-blend-mode: lighten;
 }

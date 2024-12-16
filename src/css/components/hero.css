@@ -9,19 +9,24 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  gap: var(--space-4x);
   z-index: 1;
 }
 
 .hero__title {
   z-index: 2;
   font-family: var(--typographies-typo-3);
-  font-size: 45px;
+  font-size: var(--sizes-size-7);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 110%;
   text-transform: uppercase;
+  padding-left: var(--space-2x);
+  padding-top: var(--space-8x);
+}
+.hero__title--home {
   text-align: center;
+  font-size: 45px;
+  padding-top: var(--space-3x);
 }
 
 .hero__logo {

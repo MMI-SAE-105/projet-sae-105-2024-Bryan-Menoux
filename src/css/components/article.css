@@ -7,6 +7,8 @@
 .article-card__img {
   width: 100%;
   object-fit: cover;
+  max-width: 100%;
+  max-height: auto;
 }
 
 .article-card__content-text {
