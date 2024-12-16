@@ -1,0 +1,36 @@
+.hero__duotone-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero__duotone {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+  background-color: #ade3a9;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: auto;
+    height: 100vh;
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+  }
+}
+.hero__duotone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #234703;
+  z-index: 1;
+  mix-blend-mode: lighten;
+}

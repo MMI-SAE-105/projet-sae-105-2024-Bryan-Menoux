@@ -1,0 +1,43 @@
+:root {
+  /* color */
+  --colors-gray-gray-1: #dedede;
+  --colors-gray-gray-2: #acacac;
+  --colors-gray-gray-3: #7a7a7a;
+  --colors-gray-gray-4: #505050;
+  --colors-gray-gray-5: #2f2f2f;
+  --colors-gray-gray-6: #151515;
+  --colors-black: #151515;
+  --colors-white: #ffffff;
+  --colors-green-green-1: #94bc6c;
+  --colors-green-green-2: #30674e;
+  --colors-green-green-3: #1e3f30;
+  --colors-green-green-4: #142a20;
+  /* string */
+  --typographies-typo-1: Poppins;
+  --typographies-typo-2: Montserrat;
+  --typographies-typo-3: Playfair Display;
+  /* size */
+  --sizes-size-1: 10px;
+  --sizes-size-2: 13px;
+  --sizes-size-3: 18px;
+  --sizes-size-4: 22px;
+  --sizes-size-5: 24px;
+  --sizes-size-6: 36px;
+  /* spacing */
+  --space-1x: 5px;
+  --space-2x: 10px;
+  --space-3x: 20px;
+  --space-4x: 35px;
+  --space-5x: 50px;
+  --space-6x: 80px;
+  --space-7x: 100px;
+  --space-8x: 150px;
+  /* radius */
+  --radius-1x: 5px;
+  --radius-2x: 10px;
+  --radius-3x: 20px;
+  /* line-height */
+  --line-height-1: 110%;
+  --line-height-2: 150%;
+  --line-height-3: 160%;
+}

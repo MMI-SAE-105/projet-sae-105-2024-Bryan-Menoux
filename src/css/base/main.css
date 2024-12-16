@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}

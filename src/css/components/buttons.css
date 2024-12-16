@@ -1,0 +1,82 @@
+/* bouton du menu hamburger */
+
+.header__menu-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--colors-white);
+  border-radius: 4px;
+  transition: all 0.3s;
+  position: relative;
+  left: 0;
+  top: 0;
+  border-radius: var(--radius-3x);
+}
+
+.menu-btn__bar::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+}
+.menu-btn__bar::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+}
+
+.menu-btn[aria-expanded="false"] .menu-btn__bar,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::after {
+  transform: rotate(135deg);
+  background: var(--colors-white);
+}
+
+.menu-btn[aria-expanded="false"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::after {
+  transform: rotate(90deg);
+  top: 0;
+  background: var(--colors-white);
+}
+
+/* switcher */
+
+.header__switcher {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 25px;
+  border-radius: var(--radius-3x);
+  background-color: var(--colors-gray-gray-2);
+  user-select: none;
+}
+
+.switcher__sphere {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: url(/assets/img/drapeau_Français.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 2px;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.3s;
+}
+
+.switcher__sphere--active {
+  left: 28px;
+  background: url(/assets/img/drapeau_anglais.png);
+  background-size: cover;
+  background-position: center;
+}
