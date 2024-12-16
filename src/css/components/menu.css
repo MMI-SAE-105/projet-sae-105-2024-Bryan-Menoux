@@ -7,7 +7,7 @@
   left: 0;
   top: 0;
   inset: 0;
-  background-color: var(--colors-green-green-3);
+  background-color: var(--colors-green-3);
   flex-direction: column;
   justify-content: space-between;
   transform: translateX(100vw);
@@ -18,7 +18,7 @@
 .header__menu[aria-expanded="true"] {
   transform: translateX(0);
   visibility: visible;
-  background-color: var(--colors-green-green-3);
+  background-color: var(--colors-green-3);
   overflow-y: hidden;
   display: block;
 }

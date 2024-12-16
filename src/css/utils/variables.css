@@ -8,14 +8,14 @@
   --colors-gray-gray-6: #151515;
   --colors-black: #151515;
   --colors-white: #ffffff;
-  --colors-green-green-1: #94bc6c;
-  --colors-green-green-2: #30674e;
-  --colors-green-green-3: #1e3f30;
-  --colors-green-green-4: #142a20;
+  --colors-green-1: #94bc6c;
+  --colors-green-2: #30674e;
+  --colors-green-3: #1e3f30;
+  --colors-green-4: #142a20;
   /* string */
-  --typographies-typo-1: Poppins;
-  --typographies-typo-2: Montserrat;
-  --typographies-typo-3: Playfair Display;
+  --typographies-typo-1: "Poppins";
+  --typographies-typo-2: "Montserrat";
+  --typographies-typo-3: "Playfair Display";
   /* size */
   --sizes-size-1: 10px;
   --sizes-size-2: 13px;

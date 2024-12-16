@@ -64,7 +64,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: url(/assets/img/drapeau_Français.png);
+  background: url(/assets/img/drapeau_français.webp);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -76,7 +76,29 @@
 
 .switcher__sphere--active {
   left: 28px;
-  background: url(/assets/img/drapeau_anglais.png);
+  background: url(/assets/img/drapeau_anglais.webp);
   background-size: cover;
   background-position: center;
+}
+
+/* scroll button */
+
+.scroll-btn__logo {
+  border: 3px solid var(--colors-white);
+  border-radius: 50%;
+}
+
+/* btn footer */
+
+.footer__btn {
+  padding: 5px 15px;
+  background-color: var(--colors-white);
+  color: var(--colors-green-3);
+  font-family: var(--typographies-typo-2);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%; /* 16px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
