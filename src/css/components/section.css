@@ -1,0 +1,11 @@
+.section {
+  padding: var(--space-3x) var(--space-3x);
+}
+
+.section__introduction {
+  color: var(--colors-gray-6);
+  font-size: var(--sizes-size-2);
+  font-style: normal;
+  font-weight: 200;
+  line-height: 160%;
+}

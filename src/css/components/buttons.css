@@ -54,7 +54,7 @@
   width: 50px;
   height: 25px;
   border-radius: var(--radius-3x);
-  background-color: var(--colors-gray-gray-2);
+  background-color: var(--colors-gray-2);
   user-select: none;
 }
 
@@ -101,4 +101,12 @@
   line-height: 160%; /* 16px */
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+/* article */
+
+.article-card__btn {
+  padding: 10px 20px;
+  background-color: var(--colors-green-1);
+  color: var(--colors-green-3);
 }
