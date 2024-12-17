@@ -1,0 +1,29 @@
+/* timeline articles */
+
+.article__timeline-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40dvw;
+  position: relative;
+  background-color: var(--colors-white);
+}
+
+.article__timeline-card--left {
+  align-self: flex-start;
+}
+.article__timeline-card--right {
+  align-self: flex-end;
+}
+
+.article--timeline-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: var(--space-2x);
+  background-color: var(--colors-white);
+}
+.article--timeline-end > .article__title {
+  color: var(--colors-green-2);
+}
