@@ -17,13 +17,13 @@
   --typographies-typo-2: "Montserrat";
   --typographies-typo-3: "Playfair Display";
   /* size */
-  --sizes-size-1: 10px;
-  --sizes-size-2: 13px;
-  --sizes-size-3: 16px;
-  --sizes-size-4: 18px;
-  --sizes-size-5: 22px;
-  --sizes-size-6: 24px;
-  --sizes-size-7: 36px;
+  --sizes-size-1: 0.625rem; /* 10px */
+  --sizes-size-2: 0.8125rem; /* 13px */
+  --sizes-size-3: 1rem; /* 16px */
+  --sizes-size-4: 1.125rem; /* 18px */
+  --sizes-size-5: 1.375rem; /* 22px */
+  --sizes-size-6: 1.5rem; /* 24px */
+  --sizes-size-7: 2.25rem; /* 36px */
   /* spacing */
   --space-1x: 5px;
   --space-2x: 10px;
