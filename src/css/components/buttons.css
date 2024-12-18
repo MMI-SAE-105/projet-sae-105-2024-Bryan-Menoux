@@ -1,3 +1,9 @@
+/* btn */
+
+.btn {
+  text-transform: uppercase;
+}
+
 /* bouton du menu hamburger */
 
 .header__menu-btn {
@@ -101,7 +107,6 @@
   font-weight: 900;
   line-height: 160%; /* 16px */
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 /* article */
@@ -117,6 +122,32 @@
   font-weight: 900;
   line-height: 160%;
   letter-spacing: 1px;
-  text-transform: uppercase;
+
   text-decoration: none;
+}
+
+/* play-btn */
+
+.play-btn {
+  margin-top: var(--space-2x);
+  align-self: center;
+  padding: 5px 15px;
+  background-color: var(--colors-green-3);
+  border-radius: var(--radius-1x);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--colors-green-1);
+  gap: var(--space-2x);
+  font-family: var(--typos-typo-2);
+  font-size: var(--sizes-size-1);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 1px;
+}
+
+.play-btn__img {
+  width: 20px;
+  height: 20px;
 }

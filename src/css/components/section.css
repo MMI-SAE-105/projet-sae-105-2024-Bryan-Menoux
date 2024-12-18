@@ -20,7 +20,7 @@
   font-family: var(--typos-typo-2);
   font-size: var(--sizes-size-2);
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 160%;
 }
 
@@ -36,7 +36,7 @@
   font-family: var(--typos-typo-2);
   font-size: var(--sizes-size-3);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 160%;
   margin-top: var(--space-4x);
 }
@@ -60,17 +60,22 @@
   flex-direction: column;
 }
 
+.section__conclusion {
+  font-weight: 400;
+}
 .section__conclusion a {
   color: var(--colors-green-2);
+  font-weight: 600;
+}
+.section q {
+  font-style: italic;
+  font-weight: 600;
+  quotes: "“" "”" "‘" "’";
 }
 
 /* section timeline */
 
 .section--timeline {
-  /* background: url("/assets/img/arrow_timeline.svg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 75%; */
   gap: var(--space-4x);
 }
 

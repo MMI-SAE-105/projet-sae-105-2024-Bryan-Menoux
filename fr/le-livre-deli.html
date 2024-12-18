@@ -1,177 +1,235 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link"
-          ><img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo représentant un pheonix"
-            class="home-link__logo"
-        /></a>
-        <div class="header__buttons">
-          <a href="/en/" class="header__switcher"
-            ><span class="switcher__sphere"></span
-          ></a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/fr/les-livres.html" class="item__link"
-              >Livres : Piliers de la Civilisation</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/le-livre-deli.html" class="item__link"
-              >Le Livre d'Eli : Espoir dans le Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve : Passé et Futur</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451 : Révolte et Pensée</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/bande-originale.html" class="item__link"
-              >Bande Originale : Mystère et Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/galerie.html" class="item__link">Galerie</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/a-propos.html" class="item__link">À Propos</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/autres-projets.html" class="item__link"
-              >Autres projets</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">Le livre d’ELI : Espoir dans le Chaos</h1>
-      <a href="#first-section" class="hero__scroll-btn"
-        ><img
-          src="/assets/img/arrow_white.svg"
-          alt="flèche vers le bas"
-          class="scroll-btn__logo"
-      /></a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/le_livre_deli_hero.avif"
-            alt="Photographiee d'un train post-apocalyptique"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo représentant un pheonix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/en/" class="header__switcher"><span class="switcher__sphere"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
-    <main class="main">
-      
-    </main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="fr/contact.html" class="footer__link">Contact</a>
+
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/fr/les-livres.html" class="item__link">Livres : Piliers de la Civilisation</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/a-propos.html" class="footer__link">À propos</a>
+        <li class="menu__item">
+          <a href="/fr/le-livre-deli.html" class="item__link">Le Livre d'Eli : Espoir dans le Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/autres-projet.html" class="footer__link"
-            >Autres projets</a
-          >
+        <li class="menu__item">
+          <a href="/fr/denis-villeneuve.html" class="item__link">Denis Villeneuve : Passé et Futur</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/fahrenheit-451.html" class="item__link">Fahrenheit 451 : Révolte et Pensée</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/bande-originale.html" class="item__link">Bande Originale : Mystère et Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/galerie.html" class="item__link">Galerie</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/a-propos.html" class="item__link">À Propos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/autres-projets.html" class="item__link">Autres projets</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">S'inscire à la newsletter</p>
-        <label for="email" class="footer__label">Votre email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">S'inscrire</button>
-        </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">Le livre d’ELI : Espoir dans le Chaos</h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="flèche vers le bas"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/le_livre_deli_hero.avif" alt="Photographiee d'un train post-apocalyptique"
+          class="duotone" />
       </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Réseaux sociaux</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="logo twitter"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="logo facebook"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="logo tiktok"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="logo instagram"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+    </div>
+  </div>
+  <main class="main">
+    <!-- Section 1 : Importance des livres -->
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">L'Importance des Livres dans la Reconstruction de l'Humanité</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 10h20 - Lecture : environ 3 minutes</p>
+        <p class="section__chapo">
+          Les livres sont des outils puissants pour la reconstruction de l’humanité, agissant comme des réservoirs de
+          croyances et
+          de savoirs essentiels. Dans le film "Le Livre d'Eli", la quête d'un homme pour protéger un livre précieux
+          souligne ce
+          pouvoir dans un monde dévasté par les conflits.
+        </p>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-        département MMI de Montbéliard
+      <div class="section__content">
+        <figure class="section__img-container">
+          <video src="/assets/video/the_book_of_eli_trailer.mp4" class="section__video"
+            aria-label="bande annonce du film the book of eli des frères Hughes"></video>
+          <figcaption class="section__legend centered">
+            Bande annonce du film Le livre D’ELI
+          </figcaption>
+        </figure>
+        <button class="btn play-btn">Lire la vidéo <img src="/assets/img/play_btn.svg" aria-hidden="true"
+            class="play-btn__img"></button>
+        <p class="section__text">
+          Dans "Le Livre d'Eli", l'histoire se déroule dans un monde post-apocalyptique où la connaissance et la culture
+          ont été
+          presque entièrement perdues. Le protagoniste, Eli, protège le dernier exemplaire de la Bible, un symbole de
+          croyances
+          fondamentales. Ce livre incarne l'espoir d'une reconstruction, car il détient des valeurs et des enseignements
+          qui
+          peuvent guider l'humanité vers un avenir meilleur.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/george_rr_martin.avif" alt="Portrait de George R.R Martin" class="section__img">
+          <figcaption class="section__legend centered">Portrait de George R.R Martin</figcaption>
+        </figure>
+        <p class="section__text">
+          La citation de l'auteur américain George R.R. Martin illustre bien ce concept : <q>Un lecteur vit mille vies
+            avant de
+            mourir.</q> Cela souligne le pouvoir des livres de transcender les conflits et de nourrir l'esprit. Dans le
+          film,
+          la
+          préservation de ce livre devient un acte de révolte contre l'ignorance et la destruction. Les livres, en tant
+          que
+          vecteurs de savoir, peuvent aider à rétablir l'ordre et à réinsuffler l'espoir dans une société en crise.
+        </p>
+      </div>
+      <p class="section__text">
+        La lecture joue également un rôle crucial dans la formation d'une société éclairée. En enrichissant notre
+        culture, les
+        livres nous aident à comprendre les enjeux contemporains et à naviguer dans les défis de la vie moderne. Ils
+        sont des
+        outils puissants pour promouvoir l'empathie et la tolérance, en exposant le lecteur à des expériences et des
+        perspectives différentes.
       </p>
-    </footer>
-  </body>
+      <p class="section__conclusion">
+        Pour une analyse approfondie de “Le livre d’ELI”, visitez :
+
+        <a target="_blank" href="https://www.rogerebert.com/reviews/the-book-of-eli-2010">ROGEREBERT</a>.
+      </p>
+    </section>
+
+    <!-- Section 2 : Évolution des livres -->
+    <section class="section section--no-bar">
+      <div class="section__introduction">
+        <h2 class="section__title">L'Espoir d'une Civilisation Nouvelle grâce aux Livres</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 10h30 - Lecture : environ 3 minutes</p>
+        <p class="section__chapo">
+          Les livres offrent l'espoir d'une civilisation nouvelle, permettant d'apprendre des erreurs du passé. En
+          préservant le
+          savoir et la culture, ils ouvrent la voie à un nouveau départ pour l'humanité.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/larousse.avif" alt="Livre Le grand Larousse - L’histoire de France"
+            class="section__img">
+          <figcaption class="section__legend">
+            Le grand Larousse - L’histoire de France
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          Les livres sont essentiels pour bâtir une société éclairée et résiliente. En nous confrontant aux erreurs du
+          passé, ils
+          nous enseignent des leçons précieuses. Ils deviennent des outils de réflexion qui encouragent un apprentissage
+          critique.
+          Dans un monde déchiré par les conflits, la lecture de récits passés peut inspirer des visions d'un avenir plus
+          harmonieux.
+        </p>
+      </div>
+      <p class="section__text">
+        L'espoir d'une civilisation nouvelle repose sur notre capacité à écouter et à apprendre. Les livres, en tant que
+        témoins
+        de l'histoire humaine, portent en eux des histoires de lutte, de résilience et de renaissance. Ils nous
+        rappellent que,
+        même dans les moments les plus sombres, l'humanité a toujours la capacité de se relever et de recommencer.
+      </p>
+      <p class="section__conclusion">
+        Pour en savoir plus sur l'importance des livres dans la reconstruction, visitez : <a
+          href="https://fr.wikipedia.org/wiki/Livre">La page Wikipédia</a>
+      </p>
+    </section>
+
+
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="fr/contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/a-propos.html" class="footer__link">À propos</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/autres-projet.html" class="footer__link">Autres projets</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">S'inscire à la newsletter</p>
+      <label for="email" class="footer__label">Votre email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" />
+        <button class="footer__btn">S'inscrire</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Réseaux sociaux</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="logo twitter" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="logo facebook" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="logo tiktok" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="logo instagram" class="social-link__img" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+      département MMI de Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>

@@ -26,3 +26,25 @@ window.addEventListener("scroll", function () {
     menuHamburger.classList.remove("header__scrolled");
   }
 });
+
+/* play video */
+
+const playBtn = document.querySelectorAll(".play-btn");
+
+if (playBtn) {
+  playBtn.forEach((element) => {
+    const video = element.parentElement.querySelector("video");
+    let playBtnIcon = element.querySelector(".play-btn__img");
+    element.addEventListener("click", () => {
+      if (video.paused) {
+        video.play();
+        element.classList.add("hide");
+        element.innerHTML = `Pause vidéo <img src="/assets/img/pause_btn.svg" class="play-btn__img" />`;
+      } else {
+        video.pause();
+        element.classList.remove("hide");
+        element.innerHTML = `Lire la vidéo <img src="/assets/img/play_btn.svg" alt="Play video" class="play-btn__img" />`;
+      }
+    });
+  });
+}
