@@ -10,7 +10,7 @@
   background-color: var(--colors-green-3);
   flex-direction: column;
   justify-content: space-between;
-  transform: translateX(150vw);
+  transform: translateX(100dvw);
   transition: all 0.2s ease-in-out;
   overflow: hidden;
   z-index: 5;
