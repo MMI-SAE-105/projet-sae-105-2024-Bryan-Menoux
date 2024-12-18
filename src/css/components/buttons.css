@@ -108,9 +108,10 @@
 
 .article-card__btn {
   padding: 10px 15px;
+  max-width: 50%;
+  text-align: center;
   background-color: var(--colors-green-1);
   color: var(--colors-green-3);
-
   font-size: var(--sizes-size-1);
   font-style: normal;
   font-weight: 900;

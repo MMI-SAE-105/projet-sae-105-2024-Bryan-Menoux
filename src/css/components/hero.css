@@ -25,6 +25,7 @@
   text-transform: uppercase;
   padding-top: var(--space-8x);
   padding-left: var(--space-3x);
+  padding-right: var(--space-1x);
 }
 .hero__title--home {
   text-align: center;

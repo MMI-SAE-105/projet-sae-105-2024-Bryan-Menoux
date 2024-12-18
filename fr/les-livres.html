@@ -1,448 +1,361 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link"
-          ><img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo représentant un pheonix"
-            class="home-link__logo"
-        /></a>
-        <div class="header__buttons">
-          <a href="/en/" class="header__switcher"
-            ><span class="switcher__sphere"></span
-          ></a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/fr/les-livres.html" class="item__link"
-              >Livres : Piliers de la Civilisation</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/le-livre-deli.html" class="item__link"
-              >Le Livre d'Eli : Espoir dans le Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve : Passé et Futur</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451 : Révolte et Pensée</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/bande-originale.html" class="item__link"
-              >Bande Originale : Mystère et Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/galerie.html" class="item__link">Galerie</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/a-propos.html" class="item__link">À Propos</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/autres-projets.html" class="item__link"
-              >Autres projets</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">
-        Les livres : piliers de civilisation et sagesse pour l'avenir
-      </h1>
-      <a href="#first-section" class="hero__scroll-btn"
-        ><img
-          src="/assets/img/arrow_white.svg"
-          alt="flèche vers le bas"
-          class="scroll-btn__logo"
-      /></a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/livre_hero.avif"
-            alt="Photographiee d'un train post-apocalyptique"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo représentant un pheonix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/en/" class="header__switcher"><span class="switcher__sphere"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
-    <main class="main">
-      <section class="section">
-        <article class="article" id="first-section">
-          <h2 class="article__title">
-            L'Importance des Livres pour la Civilisation Actuelle
-          </h2>
-          <h4 class="article__blog-entry">
-            Écrit le 21 Octobre à 9h48 - Lecture : environ 4 minutes
-          </h4>
-        </article>
-        <article class="article">
-          <p class="article__chapo">
-            Les livres sont des piliers essentiels de notre civilisation, jouant
-            un rôle crucial dans la préservation de la culture et la
-            transmission du savoir. Ils sont incontournables pour
-            l’apprentissage et l’enrichissement personnel, façonnant notre
-            identité collective et notre compréhension du monde.
-          </p>
-        </article>
-        <article class="article">
-          <div class="article__img-container">
-            <img
-              src="/assets/img/bibliotheque-nationale-richelieu.avif"
-              alt="Photographie de la Bibliothèque Nationale Richelieu"
-              class="article__img"
-            />
-            <legend class="article__legend centered">
-              Bibliothèque Nationale de France - Richelieu
-            </legend>
-          </div>
-          <p class="article__excerpt">
-            Dans un monde en constante évolution, les livres demeurent un
-            ancrage fondamental pour la culture. Ils préservent l’histoire et
-            les valeurs qui ont façonné notre civilisation, offrant un accès
-            inestimable à des idées et des réflexions essentielles. En tant que
-            réceptacles de savoir, les livres favorisent l’apprentissage,
-            encouragent la pensée critique et stimulent l’imagination.
-          </p>
-        </article>
-        <article class="article">
-          <div class="article__img-container">
-            <img
-              src="/assets/img/mark_twain.avif"
-              alt=""
-              class="article__img"
-            />
-            <legend class="article__legend centered">
-              Portrait de Mark Twain
-            </legend>
-          </div>
-          <p class="article__excerpt">
-            Selon l’écrivain et critique littéraire Mark Twain : “Les livres
-            sont la meilleure compagnie.” Cette citation souligne la relation
-            intime que nous avons avec les livres, qui nous accompagnent dans
-            notre quête de connaissance. Dans un contexte où l'information est
-            facilement accessible, il est vital de se souvenir que les livres
-            permettent une immersion profonde, offrant un espace pour la
-            réflexion personnelle.
-          </p>
-        </article>
-        <article class="article">
-          <p class="article__excerpt">
-            La lecture joue également un rôle crucial dans la formation d'une
-            société éclairée. En enrichissant notre culture, les livres nous
-            aident à comprendre les enjeux contemporains et à naviguer dans les
-            défis de la vie moderne. Ils sont des outils puissants pour
-            promouvoir l'empathie et la tolérance, en exposant le lecteur à des
-            expériences et des perspectives différentes. Bibliothèque Nationale
-            de France - Richelieu
-          </p>
-        </article>
-        <article class="article">
-          <p class="article__conclusion">
-            Pour en savoir plus sur l’importance des livres, consultez :
-            <a href="https://www.bnf.fr/fr">visitez la pag de la BNF </a>
-          </p>
-        </article>
-      </section>
-      <section class="section">
-        <article class="article">
-          <h2 class="article__title">
-            L'Évolution des Livres à Travers les Âges
-          </h2>
-          <h4 class="article__blog-entry">
-            Écrit le 21 Octobre à 9h55 - Lecture : environ 5 minutes
-          </h4>
-        </article>
-        <article class="article">
-          <p class="article__chapo">
-            Les livres ont évolué sous différentes formes au fil des siècles,
-            témoignant de l'histoire de l'humanité et de son besoin constant de
-            savoir.
-          </p>
-        </article>
-        <article class="article">
-          <div class="article__img-container">
-            <img
-              src="/assets/img/impression.avif"
-              alt="photographie d'une gravure représentant des personnes travaillants à l'impression de livres au 16 ème siècle"
-              class="article__img"
-            />
-            <legend class="article__legend centered">
-              Gravure de Jan van der Straet, représentant un atelier
-              d'impression au XVIe siècle
-            </legend>
-          </div>
-          <p class="article__excerpt">
-            L’évolution des livres est une histoire fascinante, marquée par des
-            jalons significatifs. Depuis les tablettes d'argile de l'Antiquité
-            jusqu'à l'imprimerie de Gutenberg, chaque étape a renforcé la
-            présence des livres dans la société. L'invention de l'imprimerie au
-            XVe siècle a révolutionné l’accès à la connaissance, rendant les
-            livres plus accessibles et contribuant à l’épanouissement des idées
-            pendant la Renaissance.
-          </p>
-        </article>
-        <article class="article">
-          <p class="excerpt">
-            Aujourd'hui, les livres existent sous différentes formes, allant des
-            formats imprimés aux e-books et audiobooks. Cette diversité illustre
-            l'adaptabilité des livres face aux évolutions technologiques et
-            culturelles. Leur capacité à se réinventer tout en préservant leur
-            essence en tant que vecteurs de savoir et d’apprentissage reste un
-            fait marquant de leur histoire.
-          </p>
-        </article>
-        <article class="article">
-          <div class="article__img-container">
-            <img
-              src="/assets/img/livre_3.avif"
-              alt="Photographie de nombreux livres de l'encyclopédie"
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Encyclopédie ou Dictionnaire raisonné des sciences, des arts et
-              des métiers
-            </legend>
-          </div>
-          <p class="article__excerpt">
-            Les livres continuent de jouer un rôle essentiel dans la
-            transmission de la culture et des connaissances. Leur présence,
-            qu'elle soit physique ou numérique, est primordiale pour garantir la
-            pérennité de notre patrimoine culturel.
-          </p>
-        </article>
-      </section>
-      <section class="section section--frise section--no-bar">
-        <article
-          class="article article__timeline-card article__timeline-card--left"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_1.avif"
-              alt="Ecriture cunéiforme  – british Museum"
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Ecriture cunéiforme – british Museum
-            </legend>
-          </div>
+
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/fr/les-livres.html" class="item__link">Livres : Piliers de la Civilisation</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/le-livre-deli.html" class="item__link">Le Livre d'Eli : Espoir dans le Chaos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/denis-villeneuve.html" class="item__link">Denis Villeneuve : Passé et Futur</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/fahrenheit-451.html" class="item__link">Fahrenheit 451 : Révolte et Pensée</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/bande-originale.html" class="item__link">Bande Originale : Mystère et Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/galerie.html" class="item__link">Galerie</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/a-propos.html" class="item__link">À Propos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/autres-projets.html" class="item__link">Autres projets</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">
+      Les livres : piliers de civilisation et sagesse pour l'avenir
+    </h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="flèche vers le bas"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/livre_hero.avif" alt="Photographiee d'un train post-apocalyptique" class="duotone" />
+      </div>
+    </div>
+  </div>
+  <main class="main">
+    <!-- Section 1 : Importance des livres -->
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">L'Importance des Livres pour la Civilisation Actuelle</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 9h48 - Lecture : environ 4 minutes</p>
+        <p class="section__chapo">
+          Les livres sont des piliers essentiels de notre civilisation, jouant un rôle crucial dans la préservation de
+          la culture et la transmission du savoir. Ils sont incontournables pour l’apprentissage et l’enrichissement
+          personnel, façonnant notre identité collective et notre compréhension du monde.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/bibliotheque-nationale-richelieu.avif"
+            alt="Photographie de la Bibliothèque Nationale Richelieu" class="section__img">
+          <figcaption class="section__legend centered">
+            Bibliothèque Nationale de France - Richelieu
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          Dans un monde en constante évolution, les livres demeurent un ancrage fondamental pour la culture. Ils
+          préservent l’histoire et les valeurs qui ont façonné notre civilisation, offrant un accès inestimable à des
+          idées et des réflexions essentielles. En tant que réceptacles de savoir, les livres favorisent
+          l’apprentissage, encouragent la pensée critique et stimulent l’imagination.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/mark_twain.avif" alt="Portrait de Mark Twain" class="section__img">
+          <figcaption class="section__legend centered">Portrait de Mark Twain</figcaption>
+        </figure>
+        <p class="section__text">
+          Selon l’écrivain et critique littéraire Mark Twain : “Les livres sont la meilleure compagnie.” Cette citation
+          souligne la relation intime que nous avons avec les livres, qui nous accompagnent dans notre quête de
+          connaissance. Dans un contexte où l'information est facilement accessible, il est vital de se souvenir que les
+          livres permettent une immersion profonde, offrant un espace pour la réflexion personnelle.
+        </p>
+      </div>
+      <p class="section__text">
+        La lecture joue également un rôle crucial dans la formation d'une société éclairée. En enrichissant notre
+        culture, les livres nous aident à comprendre les enjeux contemporains et à naviguer dans les défis de la vie
+        moderne. Ils sont des outils puissants pour promouvoir l'empathie et la tolérance, en exposant le lecteur à des
+        expériences et des perspectives différentes.
+      </p>
+      <p class="section__conclusion">
+        Pour en savoir plus sur l’importance des livres, consultez :
+        <a href="https://www.bnf.fr/fr">la page de la BNF</a>.
+      </p>
+    </section>
+
+    <!-- Section 2 : Évolution des livres -->
+    <section class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">L'Évolution des Livres à Travers les Âges</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 9h55 - Lecture : environ 5 minutes</p>
+        <p class="section__chapo">
+          Les livres ont évolué sous différentes formes au fil des siècles, témoignant de l'histoire
+          de l'humanité et de son besoin constant de savoir.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/impression.avif" alt="Gravure représentant un atelier d'impression au XVIe siècle"
+            class="section__img">
+          <figcaption class="section__legend">
+            Gravure de Jan van der Straet, représentant un atelier d'impression au XVIe siècle
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          L’évolution des livres est une histoire fascinante, marquée par des jalons significatifs. Depuis les tablettes
+          d'argile de l'Antiquité jusqu'à l'imprimerie de Gutenberg, chaque étape a renforcé la présence des livres dans
+          la société. L'invention de l'imprimerie au XVe siècle a révolutionné l’accès à la connaissance, rendant les
+          livres plus accessibles et contribuant à l’épanouissement des idées pendant la Renaissance.
+        </p>
+      </div>
+      <p class="section__text">
+        Aujourd'hui, les livres existent sous différentes formes, allant des formats imprimés aux e-books et audiobooks.
+        Cette diversité illustre l'adaptabilité des livres face aux évolutions technologiques et culturelles. Leur
+        capacité à se réinventer tout en préservant leur essence en tant que vecteurs de savoir et d’apprentissage reste
+        un fait marquant de leur histoire.
+      </p>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/livre_3.avif" alt="Photographie de nombreux livres de l'encyclopédie"
+            class="section__img">
+          <figcaption class="section__legend">
+            Gravure de Jan van der Straet, représentant un atelier d'impression au XVIe siècle
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          Les livres continuent de jouer un rôle essentiel dans la transmission de la culture et des connaissances. Leur
+          présence, qu'elle soit physique ou numérique, est primordiale pour garantir la pérennité de notre patrimoine
+          culturel.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Section 3 : Frise chronologique -->
+    <section class="section section--timeline">
+      <h2 class="section__title">Frise sur l’évolution des techniques d’écriture</h2>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_1.avif" alt="Écriture cunéiforme – British Museum" class="article__img" />
+            <figcaption>Ecriture cunéiforme – british Museum</figcaption>
+          </figure>
           <h3 class="article__title">2000 av. J.-C.</h3>
           <p class="article__excerpt">
-            Utilisation de tablettes d'argile pour enregistrer des informations,
-            notamment des comptes et des récits.
+            Utilisation de tablettes d'argile pour enregistrer des informations, notamment des comptes et des récits.
           </p>
         </article>
-        <article
-          class="article article__timeline-card article__timeline-card--right"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_2.avif"
-              alt="Photographie d'un papyrus égyptien, le Papyrus de Hounefer."
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Un papyrus égyptien, le Papyrus de Hounefer.
-            </legend>
-          </div>
+
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432"  viewBox="0 0 432 566"
+          fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_2.avif" alt="Papyrus égyptien – Le Papyrus de Hounefer" class="article__img" />
+            <figcaption>Un papyrus égyptien, le Papyrus de Hounefer.</figcaption>
+          </figure>
           <h3 class="article__title">1000 av. J.-C.</h3>
           <p class="article__excerpt">
-            Développement du papyrus comme support d'écriture, remplaçant les
-            tablettes d'argile.
+            Développement du papyrus comme support d'écriture, remplaçant les tablettes d'argile.
           </p>
         </article>
-        <article
-          class="article article__timeline-card article__timeline-card--left"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_3.avif"
-              alt="Parchemin présentant la Gesta Danorum de Saxo Grammaticus"
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Parchemin présentant la Gesta Danorum de Saxo Grammaticus
-            </legend>
-          </div>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_3.avif" alt="Parchemin – Gesta Danorum de Saxo Grammaticus"
+              class="article__img" />
+            <figcaption>Parchemin présentant la Gesta Danorum de Saxo Grammaticus</figcaption>
+          </figure>
           <h3 class="article__title">400 av. J.-C.</h3>
           <p class="article__excerpt">
-            Utilisation de parchemin (peau d'animal) comme support durable,
-            permettant une meilleure conservation.
+            Utilisation de parchemin (peau d'animal) comme support durable, permettant une meilleure conservation.
           </p>
         </article>
-        <article
-          class="article article__timeline-card article__timeline-card--right"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_4.avif"
-              alt="Photographie d'un codex"
-              class="article__img"
-            />
-            <legend class="article__legend">Un codex</legend>
-          </div>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432"  viewBox="0 0 432 566"
+          fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_4.avif" alt="Codex ancien" class="article__img" />
+            <figcaption>Un codex</figcaption>
+          </figure>
           <h3 class="article__title">1er siècle</h3>
           <p class="article__excerpt">
-            Émergence du codex, un livre fait de feuilles pliées, remplaçant les
-            rouleaux de papyrus.
+            Émergence du codex, un livre fait de feuilles pliées, remplaçant les rouleaux de papyrus.
           </p>
         </article>
-        <article
-          class="article article__timeline-card article__timeline-card--left"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_5.avif"
-              alt="Gravure de Jan van der Straet au 16 ème siècle"
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Gravure de Jan van der Straet
-            </legend>
-          </div>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_5.avif" alt="Gravure de Jan van der Straet" class="article__img" />
+            <figcaption>Gravure de Jan van der Straet</figcaption>
+          </figure>
           <h3 class="article__title">1450</h3>
           <p class="article__excerpt">
             Invention de l'imprimerie à caractères mobiles, révolutionnant la
             production de livres et rendant l'écrit plus accessible.
           </p>
         </article>
-        <article
-          class="article article__timeline-card article__timeline-card--right"
-        >
-          <div class="article__img-container">
-            <img
-              src="/assets/img/frise_6.avif"
-              alt="Photographie des diffréents supports de lecture moderne"
-              class="article__img"
-            />
-            <legend class="article__legend">
-              Les diffréents supports de lecture moderne
-            </legend>
-          </div>
-          <h3 class="article__title">20 ème siècle</h3>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432"  viewBox="0 0 432 566"
+          fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_6.avif" alt="Supports modernes de lecture" class="article__img" />
+            <figcaption>Les différents supports de lecture moderne</figcaption>
+          </figure>
+          <h3 class="article__title">20ème siècle</h3>
           <p class="article__excerpt">
             Début de l'ère numérique avec la création de livres électroniques et
             de livres audio, offrant de nouvelles façons de lire.
           </p>
         </article>
-        <article class="article article--timeline-end">
-          <h3 class="article__title">AUJOURD’HUI</h3>
-        </article>
-      </section>
-      <article class="article">
-        <p class="article__conclusion">
-          Pour en savoir plus sur l'évolution des livres, consultez :
-          <a href="https://fr.wikipedia.org/wiki/Histoire_du_livre"
-            >visitez la page Wikipédia</a
-          >
-        </p>
-      </article>
-    </main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="fr/contact.html" class="footer__link">Contact</a>
-        </li>
-        <li class="footer__item">
-          <a href="fr/a-propos.html" class="footer__link">À propos</a>
-        </li>
-        <li class="footer__item">
-          <a href="fr/autres-projet.html" class="footer__link"
-            >Autres projets</a
-          >
-        </li>
-      </ul>
-      <div class="footer__register">
-        <p class="footer__title">S'inscire à la newsletter</p>
-        <label for="email" class="footer__label">Votre email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">S'inscrire</button>
-        </div>
-      </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Réseaux sociaux</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="logo twitter"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="logo facebook"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="logo tiktok"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="logo instagram"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-        département MMI de Montbéliard
-      </p>
-    </footer>
-  </body>
+      <article class="article article--timeline-end">
+        <h3 class="article__title">AUJOURD’HUI</h3>
+      </article>
+    </section>
+
+
+
+    <!-- Section 4 : Conclusion -->
+    <section class="section section--no-bar">
+      <h4 class="section__conclusion">Pour en savoir plus sur l'évolution des livres, consultez :
+        <a href="https://fr.wikipedia.org/wiki/Histoire_du_livre">la page Wikipédia</a>.
+      </h4>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="fr/contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/a-propos.html" class="footer__link">À propos</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/autres-projet.html" class="footer__link">Autres projets</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">S'inscire à la newsletter</p>
+      <label for="footer__input" class="footer__label">Votre email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">S'inscrire</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Réseaux sociaux</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="logo twitter" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="logo facebook" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="logo tiktok" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="logo instagram" class="social-link__img" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+      département MMI de Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>
