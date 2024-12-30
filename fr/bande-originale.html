@@ -1,175 +1,195 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link"
-          ><img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo représentant un pheonix"
-            class="home-link__logo"
-        /></a>
-        <div class="header__buttons">
-          <a href="/en/" class="header__switcher"
-            ><span class="switcher__sphere"></span
-          ></a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/fr/les-livres.html" class="item__link"
-              >Livres : Piliers de la Civilisation</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/le-livre-deli.html" class="item__link"
-              >Le Livre d'Eli : Espoir dans le Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve : Passé et Futur</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451 : Révolte et Pensée</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/bande-originale.html" class="item__link"
-              >Bande Originale : Mystère et Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/galerie.html" class="item__link">Galerie</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/a-propos.html" class="item__link">À Propos</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/autres-projets.html" class="item__link"
-              >Autres projets</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">Bande Originale : Mystère et Reconstruction</h1>
-      <a href="#first-section" class="hero__scroll-btn"
-        ><img
-          src="/assets/img/arrow_white.svg"
-          alt="flèche vers le bas"
-          class="scroll-btn__logo"
-      /></a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/soundtrack_hero.webp"
-            alt="Photographiee d'un train post-apocalyptique"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo représentant un pheonix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/en/" class="header__switcher"><span class="switcher__sphere"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
-    <main class="main"></main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="fr/contact.html" class="footer__link">Contact</a>
+
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/fr/les-livres.html" class="item__link">Livres : Piliers de la Civilisation</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/a-propos.html" class="footer__link">À propos</a>
+        <li class="menu__item">
+          <a href="/fr/le-livre-deli.html" class="item__link">Le Livre d'Eli : Espoir dans le Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/autres-projet.html" class="footer__link"
-            >Autres projets</a
-          >
+        <li class="menu__item">
+          <a href="/fr/denis-villeneuve.html" class="item__link">Denis Villeneuve : Passé et Futur</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/fahrenheit-451.html" class="item__link">Fahrenheit 451 : Révolte et Pensée</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/bande-originale.html" class="item__link">Bande Originale : Mystère et Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/galerie.html" class="item__link">Galerie</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/a-propos.html" class="item__link">À Propos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/autres-projets.html" class="item__link">Autres projets</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">S'inscire à la newsletter</p>
-        <label for="email" class="footer__label">Votre email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">S'inscrire</button>
-        </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">Bande Originale : Mystère et Reconstruction</h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="flèche vers le bas"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/soundtrack_hero.webp" alt="Photographiee d'un train post-apocalyptique" class="duotone" />
       </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Réseaux sociaux</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="logo twitter"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="logo facebook"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="logo tiktok"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="logo instagram"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+    </div>
+  </div>
+  <main class="main">
+    <section id="first-section" class="section section--no-bar">
+      <div class="section__introduction">
+        <h2 class="section__title">Le Pouvoir de la Musique dans Le Livre d'Eli : Un Espoir pour la Reconstruction
+        </h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 11h40 - Lecture : environ 6 minutes</p>
+        <p class="section__chapo">
+          Dans le film Le Livre d'Eli, la musique joue un rôle central en renforçant l'ambiance post-apocalyptique tout
+          en
+          apportant une lueur d'espoir pour la reconstruction d'une civilisation. La bande originale, composée par
+          Atticus Ross,
+          encapsule à la fois la désolation du monde et la possibilité d'un nouveau départ.
+        </p>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-        département MMI de Montbéliard
+      <div class="section__content">
+        <figure class="section__img-container">
+          <video src="https://bryan-menoux.fr/videos/the_book_of_eli_soundtrack.mp4" class="section__video"
+            aria-label="Bande Originale du film “Le Livre d’ELI”"></video>
+          <figcaption class="section__legend centered">
+            Bande Originale du film “Le Livre d’ELI”
+          </figcaption>
+        </figure>
+        <button class="btn play-btn">Lire la vidéo <img src="/assets/img/play_btn.svg"
+            alt="bouton de lecture de la vidéo" aria-hidden="true" class="play-btn__img" loading="lazy"></button>
+        <p class="section__text">
+          La bande originale de Le Livre d'Eli est minimaliste, sombre et introspective, correspondant à l'univers
+          post-apocalyptique du film. Cependant, la musique ne se limite pas à dépeindre la désolation. Par des mélodies
+          éthérées
+          et des nappes électroniques, elle ajoute un sous-texte d’espoir, notamment à travers l'usage de rythmes lents
+          qui se
+          transforment progressivement, créant une ambiance de renouveau.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/atticus_ross.webp" alt="Portrait d’Atticus Ross" class="section__img" loading="lazy">
+          <figcaption class="section__legend centered">Portrait d’Atticus Ross</figcaption>
+        </figure>
+        <p class="section__text">
+          Atticus Ross a réussi à créer une bande sonore qui soutient parfaitement les thèmes du film, notamment l'idée
+          de la
+          reconstruction d'une nouvelle civilisation à partir des ruines de l'ancienne. La musique devient un vecteur
+          d'émotion et
+          de pouvoir, soulignant les moments de survie et de quête de sens du personnage principal, Eli, tout en
+          laissant
+          entrevoir la possibilité d’un futur meilleur.
+        </p>
+
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/platon.webp" alt="Portrait de Platon" class="section__img" loading="lazy">
+          <figcaption class="section__legend centered">Portrait de Ray Bradberry</figcaption>
+        </figure>
+        <p class="section__text">
+          <q>La musique peut donner une âme à nos cœurs et des ailes à la pensée.</q> — Platon
+          Cette citation de Platon reflète bien l’esprit de la musique dans Le Livre d’Eli. Elle incarne le pouvoir de
+          la culture
+          et du savoir de transcender les pires situations et d’inspirer l’espoir même dans un monde dévasté.
+        </p>
+      </div>
+      <p class="section__conclusion">
+        Pour en savoir plus sur la bande originale du film, consultez la page imdb du morceau :
+
+
+
+        <a target="_blank" href="https://www.imdb.com/title/tt1037705/soundtrack/">IMDB</a>.
       </p>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="fr/contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/a-propos.html" class="footer__link">À propos</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/autres-projet.html" class="footer__link">Autres projets</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">S'inscire à la newsletter</p>
+      <label for="footer__input" class="footer__label">Votre email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">S'inscrire</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Réseaux sociaux</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="logo twitter" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="logo facebook" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="logo tiktok" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="logo instagram" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+      département MMI de Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>
