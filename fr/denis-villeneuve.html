@@ -1,175 +1,298 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link"
-          ><img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo représentant un pheonix"
-            class="home-link__logo"
-        /></a>
-        <div class="header__buttons">
-          <a href="/en/" class="header__switcher"
-            ><span class="switcher__sphere"></span
-          ></a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/fr/les-livres.html" class="item__link"
-              >Livres : Piliers de la Civilisation</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/le-livre-deli.html" class="item__link"
-              >Le Livre d'Eli : Espoir dans le Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve : Passé et Futur</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451 : Révolte et Pensée</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/bande-originale.html" class="item__link"
-              >Bande Originale : Mystère et Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/galerie.html" class="item__link">Galerie</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/a-propos.html" class="item__link">À Propos</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/autres-projets.html" class="item__link"
-              >Autres projets</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">Denis Villeneuve : Passé et Futur</h1>
-      <a href="#first-section" class="hero__scroll-btn"
-        ><img
-          src="/assets/img/arrow_white.svg"
-          alt="flèche vers le bas"
-          class="scroll-btn__logo"
-      /></a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/denis_villeneuve_hero.avif"
-            alt="Photographiee d'un train post-apocalyptique"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo représentant un pheonix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/en/" class="header__switcher"><span class="switcher__sphere"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
-    <main class="main"></main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="fr/contact.html" class="footer__link">Contact</a>
+
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/fr/les-livres.html" class="item__link">Livres : Piliers de la Civilisation</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/a-propos.html" class="footer__link">À propos</a>
+        <li class="menu__item">
+          <a href="/fr/le-livre-deli.html" class="item__link">Le Livre d'Eli : Espoir dans le Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/autres-projet.html" class="footer__link"
-            >Autres projets</a
-          >
+        <li class="menu__item">
+          <a href="/fr/denis-villeneuve.html" class="item__link">Denis Villeneuve : Passé et Futur</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/fahrenheit-451.html" class="item__link">Fahrenheit 451 : Révolte et Pensée</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/bande-originale.html" class="item__link">Bande Originale : Mystère et Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/galerie.html" class="item__link">Galerie</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/a-propos.html" class="item__link">À Propos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/autres-projets.html" class="item__link">Autres projets</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">S'inscire à la newsletter</p>
-        <label for="email" class="footer__label">Votre email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">S'inscrire</button>
-        </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">Denis Villeneuve : Passé et Futur</h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="flèche vers le bas"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/denis_villeneuve_hero.avif" alt="Photographiee d'un train post-apocalyptique"
+          class="duotone" />
       </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Réseaux sociaux</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="logo twitter"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="logo facebook"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="logo tiktok"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="logo instagram"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+    </div>
+  </div>
+  <main class="main">
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">Les Vestiges du Passé : Une Nouvelle Vision du Futur dans les Œuvres de Denis
+          Villeneuve</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 10h40 - Lecture : environ 5 minutes</p>
+        <p class="section__chapo">
+          Les films de Denis Villeneuve sont souvent imprégnés de réflexions sur les vestiges du passé, offrant des
+          leçons
+          cruciales pour bâtir un futur meilleur. À travers ses récits captivants, il souligne l’importance d’apprendre
+          de nos
+          erreurs afin de créer un avenir éclairé.
+        </p>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-        département MMI de Montbéliard
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/blade_runner.avif" class="section__video"
+            aria-label="Poster du film Blade Runner 2049 de Denis Villeneuve"></img>
+          <figcaption class="section__legend centered">
+            Blade Runner 2049 de Denis Villeneuve
+          </figcaption>
+        </figure>
+
+        <p class="section__text">
+          Dans "Blade Runner 2049", Villeneuve examine comment les vestiges du passé façonnent notre compréhension du
+          futur.
+          L’humanité vit dans un monde dystopique où les erreurs du passé entraînent des conséquences dévastatrices. Les
+          personnages, comme K, cherchent à comprendre leur identité tout en faisant face aux vestiges d’une société en
+          déclin. Ce
+          film incite le spectateur à réfléchir sur ses choix et sur la nécessité de changer pour éviter de répéter les
+          erreurs.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/dune.avif" alt="Poster de du film Dune de Denis Villeneuve " class="section__img">
+          <figcaption class="section__legend centered">Dune de Denis Villeneuve</figcaption>
+        </figure>
+        <p class="section__text">
+          Dans "Dune", la planète Arrakis représente un autre exemple de l’importance des leçons du passé. Paul Atreides
+          doit
+          naviguer à travers les traditions et les croyances des Fremen, apprenant que leur histoire est essentielle
+          pour établir
+          un futur durable. Villeneuve nous montre que comprendre les vestiges culturels et historiques est vital pour
+          éviter les
+          erreurs passées et construire une civilisation nouvelle.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/denis_villeneuve_2.avif" alt="Portrait de Denis Villeneuve" class="section__img">
+          <figcaption class="section__legend centered">Portrait de Denis Villeneuve</figcaption>
+        </figure>
+        <p class="section__text">
+          La lecture joue également un rôle crucial dans la formation d'une société éclairée. En enrichissant notre
+          culture, les
+          livres nous aident à comprendre les enjeux contemporains et à naviguer dans les défis de la vie moderne. Ils
+          sont des
+          outils puissants pour promouvoir l'empathie et la tolérance, en exposant le lecteur à des expériences et des
+          perspectives différentes.
+        </p>
+      </div>
+
+      <p class="section__conclusion">
+        Pour en savoir plus sur les thèmes présents dans les films de Denis Villeneuve, consultez :
+        <a href="https://fr.wikipedia.org/wiki/Denis_Villeneuve#">la page Wikipédia de
+          Denis
+          Villeneuve</a>
       </p>
-    </footer>
-  </body>
+    </section>
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">La Filmographie de Denis Villeneuve : Un Voyage à Travers le Temps</h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 11h00 - Lecture : environ 4 minutes</p>
+        <p class="section__chapo">
+          Denis Villeneuve est un réalisateur acclamé, reconnu pour sa capacité à aborder des
+          thèmes complexes et profonds à
+          travers ses films. Sa filmographie témoigne de son exploration constante du passé et des vestiges qui
+          influencent notre
+          compréhension du futur.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/arrival.avif" class="section__video"
+            aria-label="Poster du film ARRIVAL de Denis Villeneuve"></img>
+          <figcaption class="section__legend centered">
+            ARRIVAL de Denis Villeneuve
+          </figcaption>
+        </figure>
+
+        <p class="section__text">
+          Avec des films tels que "Incendies", "Sicario", "Arrival", et "Dune", Villeneuve examine des sujets tels que
+          la guerre,
+          l'identité et la communication. Chacun de ses films met en lumière comment le passé, qu'il s'agisse de
+          l'histoire
+          personnelle des personnages ou des événements historiques, joue un rôle central dans la formation de leur
+          identité et de
+          leurs choix.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/incendies.avif" alt="Poster de du film INCENDIES de Denis Villeneuve"
+            class="section__img">
+          <figcaption class="section__legend centered">INCENDIES de Denis Villeneuve</figcaption>
+        </figure>
+        <p class="section__text">
+          La lecture joue également un rôle crucial dans la formation d'une société éclairée. En enrichissant notre
+          culture, les
+          livres nous aident à comprendre les enjeux contemporains et à naviguer dans les défis de la vie moderne. Ils
+          sont des
+          outils puissants pour promouvoir l'empathie et la tolérance, en exposant le lecteur à des expériences et des
+          perspectives différentes.
+        </p>
+      </div>
+    </section>
+    <section class="section section--carousel">
+      <div class="section__introduction">
+        <h2 class="section__title">Autres films réalisés par Denis Villeneuve</h2>
+      </div>
+      <div class="section__carousel-container">
+        <div class="section__carousel-item">
+          <img src="/assets/img/dune.avif" alt="Poster du film Dune de Denis Villeneuve" class="carousel__img">
+          <div class="carousel__text">
+            <h3 class="carousel__title">DUNE</h3>
+            <p class="carousel__excerpt">Film réalisé par Denis Villeneuve en 2021</p>
+          </div>
+        </div>
+        <div class="section__carousel-item">
+          <img src="/assets/img/blade_runner.avif" alt="Poster du film Blade Runner 2049 de Denis Villeneuve"
+            class="carousel__img">
+          <div class="carousel__text">
+
+            <h3 class="carousel__title">BLADE RUNNER 2049</h3>
+            <p class="carousel__excerpt">Film réalisé par Denis Villeneuve en 2017</p>
+          </div>
+        </div>
+        <div class="section__carousel-item">
+          <img src="/assets/img/arrival.avif" alt="Poster du film ARRIVAL de Denis Villeneuve" class="carousel__img">
+          <div class="carousel__text">
+
+            <h3 class="carousel__title">ARRIVAL</h3>
+            <p class="carousel__excerpt">Film réalisé par Denis Villeneuve en 2016</p>
+          </div>
+        </div>
+        <div class="section__carousel-item">
+          <img src="/assets/img/sicario.avif" alt="Poster du film SICARIO de Denis Villeneuve" class="carousel__img">
+          <div class="carousel__text">
+
+            <h3 class="carousel__title">SICARIO</h3>
+            <p class="carousel__excerpt">Film réalisé par Denis Villeneuve en 2015</p>
+          </div>
+        </div>
+        <div class="section__carousel-item">
+          <img src="/assets/img/incendies.avif" alt="Poster du film INCENDIES de Denis Villeneuve"
+            class="carousel__img">
+          <div class="carousel__text">
+
+            <h3 class="carousel__title">INCENDIES</h3>
+            <p class="carousel__excerpt">Film réalisé par Denis Villeneuve en 2010</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__btn-container">
+        <button class="carousel__btn carousel__btn--prev">←</button>
+        <button class="carousel__btn carousel__btn--next">→</button>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="fr/contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/a-propos.html" class="footer__link">À propos</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/autres-projet.html" class="footer__link">Autres projets</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">S'inscire à la newsletter</p>
+      <label for="footer__input" class="footer__label">Votre email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">S'inscrire</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Réseaux sociaux</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="logo twitter" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="logo facebook" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="logo tiktok" class="social-link__img" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="logo instagram" class="social-link__img" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+      département MMI de Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>

@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: var(--space-7x);
   position: relative;
+  padding: 0 var(--space-4x);
 }
 
 /* paramètres généeaux */

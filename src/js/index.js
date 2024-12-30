@@ -48,3 +48,33 @@ if (playBtn) {
     });
   });
 }
+
+/* carousel */
+
+const carousel = document.querySelector(".section__carousel-container");
+const prevButton = document.querySelector(".carousel__btn--prev");
+const nextButton = document.querySelector(".carousel__btn--next");
+let premierItem = document.querySelector(".section__carousel-item");
+let scrollAmount = premierItem.clientWidth;
+
+if (carousel) {
+  console.log(scrollAmount);
+
+  prevButton.addEventListener("click", () => {
+    carousel.scrollBy({
+      left: -scrollAmount,
+      behavior: "smooth",
+      block: "center",
+      inline: "center",
+    });
+  });
+
+  nextButton.addEventListener("click", () => {
+    carousel.scrollBy({
+      left: +scrollAmount,
+      behavior: "smooth",
+      block: "center",
+      inline: "center",
+    });
+  });
+}
