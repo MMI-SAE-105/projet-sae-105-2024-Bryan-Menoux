@@ -18,9 +18,9 @@
 .hero__title {
   z-index: 2;
   font-family: var(--typographies-typo-3);
-  font-size: var(--sizes-size-7);
+  font-size: var(--sizes-size-8);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 110%;
   text-transform: uppercase;
   padding-top: var(--space-8x);
