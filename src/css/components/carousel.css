@@ -7,7 +7,7 @@
   display: flex;
   gap: var(--space-5x);
   overflow-x: auto;
-  padding: var(--space-6x) var(--space-3x);
+  padding: var(--space-4x) var(--space-3x);
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   inset: 0;
@@ -15,28 +15,29 @@
 }
 
 .section__carousel-item {
-  min-width: 60dvw;
-  min-height: 50dvh;
+  min-width: 70dvw;
+  min-height: 40dvh;
   background-color: var(--colors-gray-1);
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: var(--radius-2x);
   scroll-snap-align: center;
+  padding: var(--space-3x);
 }
 
 .carousel__img {
-  height: 70%;
+  min-height: 65%;
   width: 100%;
   object-fit: cover;
-  border-radius: var(--radius-2x) var(--radius-2x) 0 0;
+  border-radius: var(--radius-2x);
 }
 
 .carousel__text {
   display: flex;
   flex-direction: column;
   gap: var(--space-2x);
-  padding: var(--space-4x) var(--space-4x);
+  padding: var(--space-3x) 0;
 }
 
 .carousel__title {

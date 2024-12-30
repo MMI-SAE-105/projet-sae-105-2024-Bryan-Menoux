@@ -51,30 +51,33 @@ if (playBtn) {
 
 /* carousel */
 
-const carousel = document.querySelector(".section__carousel-container");
-const prevButton = document.querySelector(".carousel__btn--prev");
-const nextButton = document.querySelector(".carousel__btn--next");
-let premierItem = document.querySelector(".section__carousel-item");
-let scrollAmount = premierItem.clientWidth;
+const carousels = document.querySelectorAll(".section__carousel-container");
 
-if (carousel) {
-  console.log(scrollAmount);
+carousels.forEach((carousel) => {
+  const prevButton = carousel.parentElement.querySelector(
+    ".carousel__btn--prev"
+  );
+  const nextButton = carousel.parentElement.querySelector(
+    ".carousel__btn--next"
+  );
+  const premierItem = carousel.querySelector(".section__carousel-item");
+  const scrollAmount = premierItem.clientWidth;
 
-  prevButton.addEventListener("click", () => {
-    carousel.scrollBy({
-      left: -scrollAmount,
-      behavior: "smooth",
-      block: "center",
-      inline: "center",
+  if (carousel && prevButton && nextButton) {
+    console.log(`Scroll amount for carousel: ${scrollAmount}`);
+
+    prevButton.addEventListener("click", () => {
+      carousel.scrollBy({
+        left: -scrollAmount,
+        behavior: "smooth",
+      });
     });
-  });
 
-  nextButton.addEventListener("click", () => {
-    carousel.scrollBy({
-      left: +scrollAmount,
-      behavior: "smooth",
-      block: "center",
-      inline: "center",
+    nextButton.addEventListener("click", () => {
+      carousel.scrollBy({
+        left: +scrollAmount,
+        behavior: "smooth",
+      });
     });
-  });
-}
+  }
+});
