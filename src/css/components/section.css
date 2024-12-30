@@ -5,6 +5,7 @@
   gap: var(--space-7x);
   position: relative;
   padding: 0 var(--space-4x);
+  padding-bottom: var(--space-7x);
 }
 
 /* paramètres généeaux */
@@ -84,12 +85,12 @@
 
 .section::before {
   content: "";
-  width: 90%;
-  height: 2px;
-  background-color: var(--colors-gray-6);
+  width: 80%;
+  height: 1.5px;
+  background-color: var(--colors-gray-5);
   position: absolute;
   left: 50%;
-  bottom: -5vh;
+  bottom: 0;
   transform: translateX(-50%);
 }
 

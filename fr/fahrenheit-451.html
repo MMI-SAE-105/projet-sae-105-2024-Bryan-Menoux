@@ -1,175 +1,244 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link"
-          ><img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo représentant un pheonix"
-            class="home-link__logo"
-        /></a>
-        <div class="header__buttons">
-          <a href="/en/" class="header__switcher"
-            ><span class="switcher__sphere"></span
-          ></a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/fr/les-livres.html" class="item__link"
-              >Livres : Piliers de la Civilisation</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/le-livre-deli.html" class="item__link"
-              >Le Livre d'Eli : Espoir dans le Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve : Passé et Futur</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451 : Révolte et Pensée</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/bande-originale.html" class="item__link"
-              >Bande Originale : Mystère et Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/fr/galerie.html" class="item__link">Galerie</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/a-propos.html" class="item__link">À Propos</a>
-          </li>
-          <li class="menu__item">
-            <a href="/fr/autres-projets.html" class="item__link"
-              >Autres projets</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">Fahrenheit 451 : Révolte et Pensée</h1>
-      <a href="#first-section" class="hero__scroll-btn"
-        ><img
-          src="/assets/img/arrow_white.svg"
-          alt="flèche vers le bas"
-          class="scroll-btn__logo"
-      /></a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/fahrenheit_451_hero.webp"
-            alt="Photographiee d'un train post-apocalyptique"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo représentant un pheonix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/en/" class="header__switcher"><span class="switcher__sphere"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
-    <main class="main"></main>
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="fr/contact.html" class="footer__link">Contact</a>
+
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/fr/les-livres.html" class="item__link">Livres : Piliers de la Civilisation</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/a-propos.html" class="footer__link">À propos</a>
+        <li class="menu__item">
+          <a href="/fr/le-livre-deli.html" class="item__link">Le Livre d'Eli : Espoir dans le Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="fr/autres-projet.html" class="footer__link"
-            >Autres projets</a
-          >
+        <li class="menu__item">
+          <a href="/fr/denis-villeneuve.html" class="item__link">Denis Villeneuve : Passé et Futur</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/fahrenheit-451.html" class="item__link">Fahrenheit 451 : Révolte et Pensée</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/bande-originale.html" class="item__link">Bande Originale : Mystère et Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/galerie.html" class="item__link">Galerie</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/glossaire.html" class="item__link">Glossaire</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/a-propos.html" class="item__link">À Propos</a>
+        </li>
+        <li class="menu__item">
+          <a href="/fr/autres-projets.html" class="item__link">Autres projets</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">S'inscire à la newsletter</p>
-        <label for="email" class="footer__label">Votre email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">S'inscrire</button>
-        </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">Fahrenheit 451 : Révolte et Pensée</h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="flèche vers le bas"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/fahrenheit_451_hero.webp" alt="Photographiee d'un train post-apocalyptique"
+          class="duotone" />
       </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Réseaux sociaux</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="logo twitter"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="logo facebook"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="logo tiktok"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="logo instagram"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+    </div>
+  </div>
+  <main class="main">
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">L'Importance des Livres et de la Culture pour la Civilisation dans Fahrenheit 451
+        </h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 11h20 - Lecture : environ 5 minutes</p>
+        <p class="section__chapo">
+          Dans Fahrenheit 451, Ray Bradbury met en avant l'importance des livres et de la culture pour la survie de la
+          civilisation. Les livres deviennent des symboles de révolte et de liberté, permettant l’expression des
+          émotions et la
+          transmission du savoir.
+        </p>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-        département MMI de Montbéliard
+      <div class="section__content">
+        <figure class="section__img-container">
+          <video src="https://bryan-menoux.fr/videos/fahrenheit_451_trailer.mp4" class="section__video"
+            aria-label="bande annonce du film Fahrenheit 451 de François Truffaut  "></video>
+          <figcaption class="section__legend centered">
+            Bande annonce du film Fahrenheit 451 (1996) de François Truffaut 
+          </figcaption>
+        </figure>
+        <button class="btn play-btn">Lire la vidéo <img src="/assets/img/play_btn.svg"
+            alt="bouton de lecture de la vidéo" aria-hidden="true" class="play-btn__img" loading="lazy"></button>
+        <p class="section__text">
+          Fahrenheit 451 dépeint un monde où les livres sont interdits, et où leur destruction devient un moyen de
+          contrôler la
+          population.
+        </p>
+        <p class="section__text">
+          Mais les livres représentent plus que des pages à brûler ; ils incarnent la révolte, l'expression de
+          l'individualité et
+          des émotions refoulées. Ils sont des réceptacles du savoir et de la culture, et leur disparition menace de
+          faire sombrer
+          la civilisation dans l'ignorance. Les personnages, en lisant clandestinement, redécouvrent leurs émotions et
+          luttent
+          contre l'oppression d'une société qui impose le conformisme.
+        </p>
+        <p class="section__text">
+          La culture, transmise à travers les livres, devient un acte de résistance. Guy Montag, le personnage
+          principal, prend
+          conscience du pouvoir des livres en tant qu'outils d’expression et de révolte contre une société étouffante.
+          Ce roman
+          souligne que la culture n'est pas un luxe, mais une nécessité pour la liberté humaine.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/ray_bradberry.webp" alt="Portrait de Ray Bradberry" class="section__img" loading="lazy">
+          <figcaption class="section__legend centered">Portrait de Ray Bradberry</figcaption>
+        </figure>
+        <p class="section__text">
+          Ray Bradbury a déclaré : <q>Vous ne brûlez pas des livres, vous brûlez des mondes.</q> Cette citation rappelle
+          que
+          les livres
+          et la culture qu'ils contiennent sont essentiels à la préservation de la civilisation, et que leur suppression
+          engendre
+          la fin de la liberté de penser.
+        </p>
+      </div>
+      <p class="section__conclusion">
+        Pour visionner le film Fahrenheit 451 de 1996, consultez le catalogue Amazon Prime Video :
+
+
+        <a target="_blank"
+          href="https://www.primevideo.com/-/fr/detail/Fahrenheit-451/0TRFW6NQ1GW220TXJPFHVWZ3QX">Catalogue Amazon</a>.
       </p>
-    </footer>
-  </body>
+    </section>
+    <section class="section section--no-bar">
+      <div class="section__introduction">
+        <h2 class="section__title">Résumé de Fahrenheit 451 : La Société Contre la Connaissance
+        </h2>
+        <p class="section__blog-entry">Écrit le 21 Octobre à 11h30 - Lecture : environ 2 minutes</p>
+        <p class="section__chapo">
+          Fahrenheit 451, écrit par Ray Bradbury, se déroule dans une société dystopique où les livres sont interdits et
+          brûlés.
+          Le roman suit l'évolution de Guy Montag, un pompier qui prend conscience de l'importance des livres et du
+          savoir.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/fahrenheit_personnage.webp" class="section__img"
+            alt="Personnage principal du film Fahrenheit 451 de 1996">
+          <figcaption class="section__legend centered">
+            Bande annonce du film Fahrenheit 451 (1996) de François Truffaut 
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          Dans l'univers de Fahrenheit 451, les pompiers ont pour mission de brûler tous les livres. Guy Montag, l'un
+          d'entre eux,
+          commence à douter du bien-fondé de cette pratique après une rencontre avec une jeune femme, Clarisse, qui lui
+          pose des
+          questions sur le sens de la vie. Peu à peu, Montag découvre la beauté des livres et la richesse des idées
+          qu'ils
+          contiennent. Il réalise que la société dans laquelle il vit est vide de sens, abrutie par les divertissements
+          superficiels et la répression.
+        </p>
+        <p class="section__text">
+          Au fil du récit, Montag se révolte contre le système et rejoint un groupe de résistants qui mémorisent les
+          livres pour
+          les transmettre aux générations futures. Le roman explore des thèmes tels que la censure, la liberté
+          d'expression, et
+          l'importance de la culture dans la préservation du savoir.
+        </p>
+      </div>
+
+      <p class="section__conclusion">
+        Pour se procurer le livre sur amazon :
+
+
+
+        <a target="_blank"
+          href="https://www.amazon.fr/Fahrenheit-451-Flamingo-Modern-Classics/dp/0006546064?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.ZoZpaouAmzmT0pKsjw2PDu5vibv1p1NFsbKbfPOxJJdYjOGrhiwcReh4WSOti6fGaX9Lv17qrPAJOHpJK9innZ50FbnfkS4CInmRxXHrm1avJfO5q3v-MZONVLk_RvlAWUcZGspiDY48imRDy_MDTtCjm2LbKqZr3RyZBX3_tCMEocwdRX2jx1B-qTgaiRZshV1tdfycVGKaBZvb4aU9oRDUU6nK0TXP5YqI_jWklaQ.4MCW0zs-l7ojF8RJs_6ScOBk5_WibRAJVFYmv_J8Lbk&dib_tag=se&keywords=Fahrenheit+451&qid=1729554176&s=books&sr=1-3">Fahrenheit
+          451</a>.
+      </p>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="fr/contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/a-propos.html" class="footer__link">À propos</a>
+      </li>
+      <li class="footer__item">
+        <a href="fr/autres-projet.html" class="footer__link">Autres projets</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">S'inscire à la newsletter</p>
+      <label for="footer__input" class="footer__label">Votre email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">S'inscrire</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Réseaux sociaux</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="logo twitter" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="logo facebook" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="logo tiktok" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="logo instagram" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+      département MMI de Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>
