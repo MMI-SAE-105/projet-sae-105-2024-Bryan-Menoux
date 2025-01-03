@@ -1,5 +1,16 @@
+/* footer input */
+
 .footer__input {
   background-color: var(--colors-white);
   width: 100dvw;
   border: none;
+}
+
+/* form input */
+
+.form__input {
+  background-color: transparent;
+  border: 2px solid var(--colors-green-3);
+  height: 5dvh;
+  border-radius: var(--radius-2x);
 }

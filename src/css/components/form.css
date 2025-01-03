@@ -1,0 +1,23 @@
+.section__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  margin-top: var(--space-4x);
+  margin-bottom: var(--space-2x);
+}
+
+.form__textarea {
+  height: 30dvh;
+  border: 2px solid var(--colors-green-3);
+  background: transparent;
+  border-radius: var(--radius-2x);
+}
+
+.form__select {
+  border: 2px solid var(--colors-green-3);
+  background: transparent;
+  height: 5dvh;
+  border-radius: var(--radius-2x);
+}

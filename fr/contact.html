@@ -64,8 +64,38 @@
       </div>
     </div>
   </div>
-  <main class="main"></main>
-  <footer class="footer">
+  <main class="main">
+    <section class="section section--no-bar">
+      <div class="section__content">
+        <h2 class="section__title" id="first-section">Contactez-nous</h2>
+        <p class="section__text">
+          Nous serions ravis de vous entendre ! N’hésitez pas à nous contacter par mail ou via ce formulaire :
+        </p>
+        <form action="#" class="section__form">
+          <label for="name" class="form__label">Nom</label>
+          <input type="text" class="form__input" />
+          <label for="email" class="form__label">Email</label>
+          <input type="email" class="form__input" />
+          <label for="objet" class="form__label">Objet du message</label>
+          <select name="object" class="form__select">
+            <option value="option1" class="select__option">Administratif</option>
+            <option value="option2" class="select__option">Assistance</option>
+            <option value="option3" class="select__option">Autre</option>
+          </select>
+          <label for="message" class="form__label">Message</label>
+          <textarea name="message" id="message" class="form__textarea"></textarea>
+          <button class="form__btn">Envoyer</button>
+        </form>
+      </div>
+      <div class="section__content">
+        <h2 class="section__title">Nous contacter par mail</h2>
+        <p class="section__text">
+          Email : <a href="mailto:contact@Rebirth.com ">contact@Rebirth.com</a> Nous répondons généralement sous 24h.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class=" footer">
     <ul class="footer__list">
       <li class="footer__item">
         <a href="fr/contact.html" class="footer__link">Contact</a>
