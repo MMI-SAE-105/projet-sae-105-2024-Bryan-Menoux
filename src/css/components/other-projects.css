@@ -14,9 +14,8 @@
 }
 
 .other-projects__link {
-  color: var(--colors-white);
   font-family: var(--typos-typo-2);
-  font-size: var(--font-size-3);
+  font-size: var(--font-size-6);
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -26,4 +25,9 @@
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+.section__other-projects a {
+  color: var(--colors-white);
+  font-weight: 400;
 }

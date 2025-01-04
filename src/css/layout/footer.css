@@ -10,7 +10,7 @@
 
 .footer__list {
   display: flex;
-  gap: var(--space-1x);
+  gap: var(--space-2x);
   flex-direction: column;
 }
 
