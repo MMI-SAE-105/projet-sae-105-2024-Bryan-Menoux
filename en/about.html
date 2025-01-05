@@ -1,179 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link">
-          <img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo representing a phoenix"
-            class="home-link__logo"
-          />
-        </a>
-        <div class="header__buttons">
-          <a href="/fr/" class="header__switcher">
-            <span class="switcher__sphere switcher__sphere--active"></span>
-          </a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/en/the-books.html" class="item__link"
-              >Books: Pillars of Civilization</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/the-book-of-eli.html" class="item__link"
-              >The Book of Eli: Hope in Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve: Past and Future</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451: Revolt and Thought</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/soundtrack.html" class="item__link"
-              >Soundtrack: Mystery and Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/gallery.html" class="item__link">Gallery</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/glossary.html" class="item__link">Glossary</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/about.html" class="item__link">About</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/other-projects.html" class="item__link"
-              >Other Projects</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">About</h1>
-      <a href="#first-section" class="hero__scroll-btn">
-        <img
-          src="/assets/img/arrow_white.svg"
-          alt="downward arrow"
-          class="scroll-btn__logo"
-        />
-      </a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/a_propos_hero.avif"
-            alt="Photograph of a post-apocalyptic train"
-            class="duotone"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link"><img src="/assets/img/logo_blanc.svg" alt="Logo representing a phoenix"
+          class="home-link__logo" /></a>
+      <div class="header__buttons">
+        <a href="/fr/a-propos.html" class="header__switcher"><span
+            class="switcher__sphere switcher__sphere--active"></span></a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
 
-    <main class="main"></main>
-
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="/en/contact.html" class="footer__link">Contact</a>
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/en/the-books.html" class="item__link">Books: Pillars of Civilization</a>
         </li>
-        <li class="footer__item">
-          <a href="/en/about.html" class="footer__link">About</a>
+        <li class="menu__item">
+          <a href="/en/the-book-of-eli.html" class="item__link">The Book of Eli: Hope in Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="/en/other-projects.html" class="footer__link"
-            >Other Projects</a
-          >
+        <li class="menu__item">
+          <a href="/en/denis-villeneuve.html" class="item__link">Denis Villeneuve: Past and Future</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/fahrenheit-451.html" class="item__link">Fahrenheit 451: Revolt and Thought</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/soundtrack.html" class="item__link">Soundtrack: Mystery and Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/glossary.html" class="item__link">Glossary</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/about.html" class="item__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/other-projects.html" class="item__link">Other Projects</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">Subscribe to the newsletter</p>
-        <label for="email" class="footer__label">Your email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">Subscribe</button>
-        </div>
-      </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Social Networks</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="Twitter logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="Facebook logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="TikTok logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="Instagram logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+    </nav>
+  </header>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © project carried out in 2024 as part of an educational exercise at the
-        MMI department of Montbéliard
-      </p>
-    </footer>
-  </body>
+  <div class="hero">
+    <h1 class="hero__title">About</h1>
+    <a href="#first-section" class="hero__scroll-btn"><img src="/assets/img/arrow_white.svg" alt="Downward arrow"
+        class="scroll-btn__logo" /></a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/a_propos_hero.webp" alt="Photograph of a post-apocalyptic train" class="duotone" />
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="section section--no-bar">
+      <div class="section__content">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__text">
+          My name is Bryan, and I’ve been passionate about computers since I was a kid. Like many others, I’ve spent a
+          lot
+          of time playing video games, especially ones with captivating storylines. This passion has also led me to
+          think
+          about the importance of books in our lives. For me, books are essential elements of our civilization. They
+          play
+          a key role in preserving culture and passing down knowledge, helping us better understand the world and shape
+          our identity. Even though I don’t read much, I genuinely believe that books have a massive impact on our
+          lives.
+        </p>
+      </div>
+      <div class="section__content">
+        <h2 class="section__title">Why This Topic?</h2>
+        <p class="section__text">
+          I decided to explore the idea of sending a book into a post-apocalyptic future because I think books are
+          incredibly important for rebuilding a society, even when everything seems lost. They provide us with different
+          perspectives and valuable lessons. This site is a space to reflect on the importance of books and culture in
+          our
+          survival and development, even in difficult times.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="about.html" class="footer__link">About</a>
+      </li>
+      <li class="footer__item">
+        <a href="other-projects.html" class="footer__link">Other Projects</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">Subscribe to the newsletter</p>
+      <label for="footer__input" class="footer__label">Your email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">Subscribe</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Social Media</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="Twitter logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="Facebook logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="TikTok logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="Instagram logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © Project completed in 2024 as part of an educational exercise at the MMI department of Montbéliard
+    </p>
+  </footer>
+</body>
+
 </html>
