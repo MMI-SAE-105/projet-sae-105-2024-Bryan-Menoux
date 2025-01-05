@@ -1,181 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rebirth</title>
-    <script src="/src/js/index.js" defer></script>
-    <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__mobile">
-        <a href="/" class="header__home-link">
-          <img
-            src="/assets/img/logo_blanc.svg"
-            alt="Logo representing a phoenix"
-            class="home-link__logo"
-          />
-        </a>
-        <div class="header__buttons">
-          <a href="/fr/" class="header__switcher">
-            <span class="switcher__sphere switcher__sphere--active"></span>
-          </a>
-          <button class="header__menu-btn menu-btn" aria-expanded="true">
-            <span class="menu-btn__bar"></span>
-          </button>
-        </div>
-      </div>
 
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="/en/the-books.html" class="item__link"
-              >Books: Pillars of Civilization</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/the-book-of-eli.html" class="item__link"
-              >The Book of Eli: Hope in Chaos</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/denis-villeneuve.html" class="item__link"
-              >Denis Villeneuve: Past and Future</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/fahrenheit-451.html" class="item__link"
-              >Fahrenheit 451: Revolt and Thought</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/soundtrack.html" class="item__link"
-              >Soundtrack: Mystery and Reconstruction</a
-            >
-          </li>
-          <li class="menu__item">
-            <a href="/en/gallery.html" class="item__link">Gallery</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/glossary.html" class="item__link">Glossary</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/contact.html" class="item__link">Contact</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/about.html" class="item__link">About</a>
-          </li>
-          <li class="menu__item">
-            <a href="/en/other-projects.html" class="item__link"
-              >Other Projects</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero">
-      <h1 class="hero__title">
-        Books: Pillars of Civilization and Wisdom for the Future
-      </h1>
-      <a href="#first-section" class="hero__scroll-btn">
-        <img
-          src="/assets/img/arrow_white.svg"
-          alt="downward arrow"
-          class="scroll-btn__logo"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebirth</title>
+  <script src="/src/js/index.js" defer></script>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__mobile">
+      <a href="/" class="header__home-link">
+        <img src="/assets/img/logo_blanc.svg" alt="Logo representing a phoenix" class="home-link__logo" />
       </a>
-      <div class="hero__duotone-container">
-        <div class="hero__duotone">
-          <img
-            src="/assets/img/livre_hero.avif"
-            alt="Photograph of a post-apocalyptic train"
-            class="duotone"
-          />
-        </div>
+      <div class="header__buttons">
+        <a href="/fr/les-livres.html" class="header__switcher">
+          <span class="switcher__sphere switcher__sphere--active"></span>
+        </a>
+        <button class="header__menu-btn menu-btn" aria-expanded="true">
+          <span class="menu-btn__bar"></span>
+        </button>
       </div>
     </div>
 
-    <main class="main"></main>
-
-    <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__item">
-          <a href="/en/contact.html" class="footer__link">Contact</a>
+    <nav class="header__menu" aria-expanded="false">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="/en/the-books.html" class="item__link">Books: Pillars of Civilization</a>
         </li>
-        <li class="footer__item">
-          <a href="/en/about.html" class="footer__link">About</a>
+        <li class="menu__item">
+          <a href="/en/the-book-of-eli.html" class="item__link">The Book of Eli: Hope in Chaos</a>
         </li>
-        <li class="footer__item">
-          <a href="/en/other-projects.html" class="footer__link"
-            >Other Projects</a
-          >
+        <li class="menu__item">
+          <a href="/en/denis-villeneuve.html" class="item__link">Denis Villeneuve: Past and Future</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/fahrenheit-451.html" class="item__link">Fahrenheit 451: Revolt and Thought</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/soundtrack.html" class="item__link">Soundtrack: Mystery and Reconstruction</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/glossary.html" class="item__link">Glossary</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/contact.html" class="item__link">Contact</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/about.html" class="item__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="/en/other-projects.html" class="item__link">Other Projects</a>
         </li>
       </ul>
-      <div class="footer__register">
-        <p class="footer__title">Subscribe to the newsletter</p>
-        <label for="email" class="footer__label">Your email</label>
-        <div class="footer__newsletter">
-          <input type="text" class="footer__input" />
-          <button class="footer__btn">Subscribe</button>
-        </div>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1 class="hero__title">
+      Books: Pillars of Civilization and Wisdom for the Future
+    </h1>
+    <a href="#first-section" class="hero__scroll-btn">
+      <img src="/assets/img/arrow_white.svg" alt="Downward arrow" class="scroll-btn__logo" />
+    </a>
+    <div class="hero__duotone-container">
+      <div class="hero__duotone">
+        <img src="/assets/img/livre_hero.webp" alt="Photograph of a post-apocalyptic train" class="duotone" />
       </div>
-      <div class="footer__social-network">
-        <p class="footer__title">Social Networks</p>
-        <ul class="footer__social-list">
-          <li class="social-list__item">
-            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-              <img
-                src="/assets/img/twitter_white.svg"
-                alt="Twitter logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.facebook.com/mmimontbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/facebook_white.svg"
-                alt="Facebook logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.tiktok.com/@mmi_montbeliard"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/tiktok_white.svg"
-                alt="TikTok logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              href="https://www.instagram.com/mmi_montbeliard/"
-              class="menu__social-link"
-            >
-              <img
-                src="/assets/img/instagram_white.svg"
-                alt="Instagram logo"
-                class="social-link__img"
-              />
-            </a>
-          </li>
-        </ul>
+    </div>
+  </div>
+  <main class="main">
+    <section id="first-section" class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">The Importance of Books for Current Civilization</h2>
+        <h3 class="section__blog-entry">Written on October 21 at 9:48 AM - Reading time: approximately 4 minutes</h3>
+        <p class="section__chapo">
+          Books are essential pillars of our civilization, playing a crucial role in preserving culture and transmitting
+          <a href="glossary.html">knowledge</a>. They are indispensable for learning and personal growth, shaping our
+          collective identity and understanding of the world.
+        </p>
       </div>
 
-      <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
-      <p class="footer__text uppercase">
-        © project carried out in 2024 as part of an educational exercise at the
-        MMI department of Montbéliard
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/bibliotheque-nationale-richelieu.webp"
+            alt="Photograph of the Richelieu National Library" class="section__img" loading="lazy">
+          <figcaption class="section__legend centered">
+            National Library of France - Richelieu
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          In a constantly evolving world, books remain a fundamental anchor for culture. They preserve the history and
+          values that have shaped our civilization, offering invaluable access to essential ideas and reflections. As
+          receptacles of knowledge, books foster learning, encourage critical thinking, and stimulate imagination.
+        </p>
+      </div>
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/mark_twain.webp" alt="Portrait of Mark Twain" class="section__img" loading="lazy">
+          <figcaption class="section__legend centered">Portrait of Mark Twain</figcaption>
+        </figure>
+        <p class="section__text">
+          According to writer and literary critic Mark Twain: <q>Books are the best company.</q> This quote highlights
+          the intimate relationship we have with books, which accompany us in our quest for knowledge. In a context
+          where information is easily accessible, it is vital to remember that books allow for deep immersion, offering
+          a space for personal reflection.
+        </p>
+      </div>
+      <p class="section__text">
+        Reading also plays a crucial role in the formation of an enlightened society. By enriching our culture, books
+        help us understand contemporary issues and navigate the challenges of modern life. They are powerful tools for
+        promoting empathy and tolerance, exposing readers to different experiences and perspectives.
       </p>
-    </footer>
-  </body>
+      <p class="section__conclusion">
+        To learn more about the importance of books, visit:
+        <a target="_blank" href="https://www.bnf.fr/en">the BNF page</a>.
+      </p>
+    </section>
+    <section class="section">
+      <div class="section__introduction">
+        <h2 class="section__title">The Evolution of Books Through the Ages</h2>
+        <h3 class="section__blog-entry">Written on October 21 at 9:55 AM - Reading time: approximately 5 minutes</h3>
+        <p class="section__chapo">
+          Books have evolved in various forms over the centuries, bearing witness to humanity's history and its constant
+          need for knowledge.
+        </p>
+      </div>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/impression.webp" alt="Engraving of a printing workshop in the 16th century"
+            class="section__img" loading="lazy">
+          <figcaption class="section__legend">
+            Engraving by Jan van der Straet, depicting a printing workshop in the 16th century
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          The evolution of books is a fascinating story marked by significant milestones. From the clay tablets of
+          antiquity to Gutenberg's printing press, each stage has reinforced the presence of books in society. The
+          invention of the printing press in the 15th century revolutionized access to knowledge, making books more
+          accessible and contributing to the flourishing of ideas during the Renaissance.
+        </p>
+      </div>
+      <p class="section__text">
+        Today, books exist in various forms, from printed formats to e-books and audiobooks. This diversity illustrates
+        the adaptability of books in the face of technological and cultural changes. Their ability to reinvent
+        themselves
+        while preserving their essence as vehicles of knowledge and learning remains a remarkable aspect of their
+        history.
+      </p>
+
+      <div class="section__content">
+        <figure class="section__img-container">
+          <img src="/assets/img/livre_3.webp" alt="Photograph of many books from the encyclopedia" class="section__img"
+            loading="lazy">
+          <figcaption class="section__legend">
+            Engraving by Jan van der Straet, depicting a printing workshop in the 16th century
+          </figcaption>
+        </figure>
+        <p class="section__text">
+          Books continue to play an essential role in the <a href="glossary.html">transmission</a> of culture and
+          knowledge. Their presence, whether physical or digital, is crucial for ensuring the sustainability of our
+          cultural heritage.
+        </p>
+      </div>
+    </section>
+    <section class="section section--timeline section--no-bar">
+      <h2 class="section__title">Timeline on the Evolution of Writing Techniques</h2>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_1.webp" alt="Cuneiform writing – British Museum" class="article__img"
+              loading="lazy" />
+            <figcaption>Cuneiform writing – British Museum</figcaption>
+          </figure>
+          <h3 class="article__title">2000 BC</h3>
+          <p class="article__excerpt">
+            Clay tablets were used to record information, particularly accounts and narratives.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432" viewBox="0 0 432 566" fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_2.webp" alt="Egyptian Papyrus – Papyrus of Hounefer" class="article__img"
+              loading="lazy" />
+            <figcaption>Egyptian Papyrus – Papyrus of Hounefer</figcaption>
+          </figure>
+          <h3 class="article__title">1000 BC</h3>
+          <p class="article__excerpt">
+            Development of papyrus as a writing material, replacing clay tablets.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_3.webp" alt="Parchment – Gesta Danorum by Saxo Grammaticus" class="article__img"
+              loading="lazy" />
+            <figcaption>Parchment showing the Gesta Danorum by Saxo Grammaticus</figcaption>
+          </figure>
+          <h3 class="article__title">400 BC</h3>
+          <p class="article__excerpt">
+            Use of parchment (animal skin) as a durable writing material, allowing better preservation.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432" viewBox="0 0 432 566" fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_4.webp" alt="Ancient Codex" class="article__img" loading="lazy" />
+            <figcaption>An ancient codex</figcaption>
+          </figure>
+          <h3 class="article__title">1st Century</h3>
+          <p class="article__excerpt">
+            Emergence of the codex, a book made of folded sheets, replacing papyrus scrolls.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_5.webp" alt="Engraving by Jan van der Straet" class="article__img"
+              loading="lazy" />
+            <figcaption>Engraving by Jan van der Straet</figcaption>
+          </figure>
+          <h3 class="article__title">1450</h3>
+          <p class="article__excerpt">
+            Invention of movable type printing, revolutionizing book production and making writing more accessible.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="432" viewBox="0 0 432 566" fill="none">
+          <path
+            d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20V0ZM345.987 562.1C349.632 566.249 355.951 566.658 360.1 563.013L427.715 503.615C431.865 499.97 432.273 493.651 428.629 489.502C424.984 485.353 418.665 484.944 414.516 488.589L354.413 541.387L301.615 481.285C297.97 477.135 291.651 476.727 287.502 480.371C283.353 484.016 282.944 490.335 286.589 494.484L345.987 562.1ZM34.3081 27.8141C39.4814 29.7476 45.2426 27.1213 47.1761 21.9479C49.1097 16.7746 46.4833 11.0134 41.3099 9.07984L34.3081 27.8141ZM95.4234 33.6386C90.5449 31.0498 84.4915 32.9059 81.9026 37.7844C79.3138 42.6629 81.1699 48.7163 86.0484 51.3052L95.4234 33.6386ZM134.868 80.9256C139.419 84.0551 145.645 82.9031 148.774 78.3524C151.904 73.8018 150.752 67.5758 146.201 64.4464L134.868 80.9256ZM193.135 100.872C188.976 97.2376 182.659 97.6632 179.025 101.822C175.391 105.981 175.816 112.298 179.975 115.932L193.135 100.872ZM220.663 155.999C224.357 160.104 230.68 160.437 234.785 156.742C238.891 153.047 239.223 146.725 235.529 142.62L220.663 155.999ZM272.495 189.126C269.331 184.599 263.096 183.495 258.57 186.659C254.043 189.823 252.939 196.058 256.103 200.584L272.495 189.126ZM285.798 249.201C288.382 254.082 294.433 255.944 299.314 253.36C304.195 250.777 306.058 244.725 303.474 239.844L285.798 249.201ZM328.051 293.936C326.069 288.781 320.284 286.208 315.129 288.189C309.973 290.17 307.401 295.956 309.382 301.111L328.051 293.936ZM326.779 355.489C328.166 360.835 333.624 364.044 338.97 362.658C344.316 361.271 347.525 355.814 346.139 350.468L326.779 355.489ZM357.983 408.621C357.159 403.16 352.064 399.401 346.603 400.225C341.142 401.049 337.383 406.144 338.207 411.605L357.983 408.621ZM344.044 468.557C344.355 474.071 349.077 478.289 354.591 477.978C360.105 477.667 364.323 472.945 364.012 467.43L344.044 468.557ZM364.84 526.461C364.987 520.94 360.63 516.346 355.109 516.199C349.589 516.052 344.994 520.408 344.847 525.929L364.84 526.461ZM10 20C9.14606 20 9.03627 19.8719 10.6603 20.2401C11.8738 20.5152 13.6145 20.9626 15.8604 21.6113C20.3386 22.9048 26.6017 24.9339 34.3081 27.8141L41.3099 9.07984C33.1808 6.04161 26.4317 3.8472 21.4104 2.39682C18.9066 1.6736 16.7757 1.11897 15.082 0.735017C13.7989 0.444127 11.7462 0 10 0V20ZM86.0484 51.3052C101.215 59.3535 117.743 69.1484 134.868 80.9256L146.201 64.4464C128.394 52.2006 111.207 42.0142 95.4234 33.6386L86.0484 51.3052ZM179.975 115.932C193.699 127.924 207.381 141.242 220.663 155.999L235.529 142.62C221.681 127.233 207.424 113.357 193.135 100.872L179.975 115.932ZM256.103 200.584C266.614 215.623 276.589 231.804 285.798 249.201L303.474 239.844C293.87 221.7 283.464 204.818 272.495 189.126L256.103 200.584ZM309.382 301.111C315.966 318.243 321.816 336.353 326.779 355.489L346.139 350.468C340.986 330.601 334.906 311.772 328.051 293.936L309.382 301.111ZM338.207 411.605C340.948 429.775 342.927 448.749 344.044 468.557L364.012 467.43C362.861 447.013 360.819 427.42 357.983 408.621L338.207 411.605ZM344.847 525.929C344.595 535.4 344.156 545.041 343.521 554.854L363.479 556.146C364.13 546.083 364.581 536.189 364.84 526.461L344.847 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <div class="timeline-card__container timeline-card__container--right">
+        <article class="article article__timeline-card article__timeline-card">
+          <figure class="timeline__figure">
+            <img src="/assets/img/frise_6.webp" alt="Modern reading supports" class="article__img" loading="lazy" />
+            <figcaption>The different supports of modern reading</figcaption>
+          </figure>
+          <h3 class="article__title">20th Century</h3>
+          <p class="article__excerpt">
+            Beginning of the digital era with the creation of e-books and audiobooks, offering new ways to read.
+          </p>
+        </article>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 433 566" fill="none">
+          <path
+            d="M422.104 0C427.627 0 432.104 4.47715 432.104 10C432.104 15.5228 427.627 20 422.104 20V0ZM86.1172 562.1C82.4722 566.249 76.1538 566.658 72.0046 563.013L4.38889 503.615C0.239658 499.97 -0.16914 493.651 3.47582 489.502C7.12077 485.353 13.4392 484.944 17.5884 488.589L77.6913 541.387L130.489 481.285C134.134 477.135 140.453 476.727 144.602 480.371C148.751 484.016 149.16 490.335 145.515 494.484L86.1172 562.1ZM397.796 27.8141C392.623 29.7476 386.862 27.1213 384.928 21.9479C382.995 16.7746 385.621 11.0134 390.794 9.07984L397.796 27.8141ZM336.681 33.6386C341.559 31.0498 347.613 32.9059 350.202 37.7844C352.791 42.6629 350.934 48.7163 346.056 51.3052L336.681 33.6386ZM297.236 80.9256C292.686 84.0551 286.46 82.9031 283.33 78.3524C280.201 73.8018 281.353 67.5758 285.903 64.4464L297.236 80.9256ZM238.969 100.872C243.128 97.2376 249.446 97.6632 253.08 101.822C256.714 105.981 256.288 112.298 252.129 115.932L238.969 100.872ZM211.441 155.999C207.747 160.104 201.424 160.437 197.319 156.742C193.214 153.047 192.881 146.725 196.576 142.62L211.441 155.999ZM159.609 189.126C162.773 184.599 169.008 183.495 173.535 186.659C178.061 189.823 179.166 196.058 176.002 200.584L159.609 189.126ZM146.307 249.201C143.723 254.082 137.671 255.944 132.79 253.36C127.909 250.777 126.046 244.725 128.63 239.844L146.307 249.201ZM104.054 293.936C106.035 288.781 111.82 286.208 116.976 288.189C122.131 290.17 124.704 295.956 122.723 301.111L104.054 293.936ZM105.325 355.489C103.938 360.835 98.4806 364.044 93.1346 362.658C87.7887 361.271 84.5789 355.814 85.9655 350.468L105.325 355.489ZM74.1212 408.621C74.945 403.16 80.04 399.401 85.501 400.225C90.9621 401.049 94.7213 406.144 93.8974 411.605L74.1212 408.621ZM88.0604 468.557C87.7495 474.071 83.0273 478.289 77.5132 477.978C71.9991 477.667 67.7812 472.945 68.0921 467.43L88.0604 468.557ZM67.2644 526.461C67.1175 520.94 71.474 516.346 76.9949 516.199C82.5158 516.052 87.1104 520.408 87.2574 525.929L67.2644 526.461ZM422.104 20C422.958 20 423.068 19.8719 421.444 20.2401C420.231 20.5152 418.49 20.9626 416.244 21.6113C411.766 22.9048 405.503 24.9339 397.796 27.8141L390.794 9.07984C398.924 6.04161 405.673 3.8472 410.694 2.39682C413.198 1.6736 415.329 1.11897 417.022 0.735017C418.305 0.444127 420.358 0 422.104 0V20ZM346.056 51.3052C330.89 59.3535 314.362 69.1484 297.236 80.9256L285.903 64.4464C303.71 52.2006 320.898 42.0142 336.681 33.6386L346.056 51.3052ZM252.129 115.932C238.405 127.924 224.723 141.242 211.441 155.999L196.576 142.62C210.423 127.233 224.681 113.357 238.969 100.872L252.129 115.932ZM176.002 200.584C165.49 215.623 155.515 231.804 146.307 249.201L128.63 239.844C138.235 221.7 148.641 204.818 159.609 189.126L176.002 200.584ZM122.723 301.111C116.138 318.243 110.288 336.353 105.325 355.489L85.9655 350.468C91.1182 330.601 97.1987 311.772 104.054 293.936L122.723 301.111ZM93.8974 411.605C91.1562 429.775 89.1774 448.749 88.0604 468.557L68.0921 467.43C69.2435 447.013 71.2852 427.42 74.1212 408.621L93.8974 411.605ZM87.2574 525.929C87.5094 535.4 87.9485 545.041 88.5835 554.854L68.6252 556.146C67.9741 546.083 67.5233 536.189 67.2644 526.461L87.2574 525.929Z"
+            fill="#1E3F30" />
+        </svg>
+      </div>
+
+      <article class="article article--timeline-end">
+        <h3 class="article__title">TODAY</h3>
+      </article>
+      <p class="section__conclusion">To learn more about the evolution of books, visit:
+        <a target="_blank" href="https://en.wikipedia.org/wiki/History_of_books">the Wikipedia page</a>.
+      </p>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a href="contact.html" class="footer__link">Contact</a>
+      </li>
+      <li class="footer__item">
+        <a href="about.html" class="footer__link">About</a>
+      </li>
+      <li class="footer__item">
+        <a href="other-projects.html" class="footer__link">Other Projects</a>
+      </li>
+    </ul>
+    <div class="footer__register">
+      <p class="footer__title">Subscribe to the newsletter</p>
+      <label for="footer__input" class="footer__label">Your email</label>
+      <div class="footer__newsletter">
+        <input type="text" class="footer__input" id="footer__input" />
+        <button class="footer__btn">Subscribe</button>
+      </div>
+    </div>
+    <div class="footer__social-network">
+      <p class="footer__title">Social Media</p>
+      <ul class="footer__social-list">
+        <li class="social-list__item">
+          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/twitter_white.svg" alt="Twitter logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+            <img src="/assets/img/facebook_white.svg" alt="Facebook logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link">
+            <img src="/assets/img/tiktok_white.svg" alt="TikTok logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+            <img src="/assets/img/instagram_white.svg" alt="Instagram logo" class="social-link__img" loading="lazy" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h3 class="footer__text">BRYAN MENOUX - MM1 C1</h3>
+    <p class="footer__text uppercase">
+      © project completed in 2024 as part of an educational exercise at the
+      MMI department of Montbéliard
+    </p>
+  </footer>
+
+</body>
+
 </html>
