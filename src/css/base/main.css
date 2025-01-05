@@ -46,3 +46,7 @@ li {
   overflow-x: hidden;
   word-wrap: break-word;
 }
+
+#first-section {
+  scroll-margin-top: calc(var(--space-6x) + -1px);
+}
