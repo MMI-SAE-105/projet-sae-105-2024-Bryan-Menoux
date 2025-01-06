@@ -28,7 +28,7 @@
 
 .section__legend {
   font-family: var(--typos-typo-2);
-  font-size: var(--sizes-size-3);
+  font-size: var(--sizes-size-2);
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
@@ -38,7 +38,7 @@
   font-family: var(--typos-typo-2);
   font-size: var(--sizes-size-3);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 160%;
   margin-top: var(--space-4x);
 }
