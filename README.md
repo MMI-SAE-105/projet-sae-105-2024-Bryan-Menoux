@@ -7,5 +7,5 @@
 - NOM : Menoux
 - PRÉNOM : Bryan
 - GROUPE : C1
-- URL du site : rebirth.bryan-menoux.fr
+- URL du site : https://rebirth.bryan-menoux.fr
 - URL FIGMA : https://www.figma.com/design/aIIAD2mymqHYoOHrUCcuox/MENOUX_Bryan_Projet_S1_MM1_C1_23-OCT-2024?node-id=53-71&t=cYeZis4AvLhZvHwe-1
