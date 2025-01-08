@@ -29,7 +29,7 @@ window.addEventListener("scroll", function () {
 
 /* play video */
 
-const playBtn = document.querySelectorAll(".play-btn");
+const playBtn = document.querySelectorAll(".play-btn--fr");
 
 if (playBtn) {
   playBtn.forEach((element) => {
@@ -39,11 +39,30 @@ if (playBtn) {
       if (video.paused) {
         video.play();
         element.classList.add("hide");
-        element.innerHTML = `Pause vidéo <img src="/assets/img/pause_btn.svg" class="play-btn__img" />`;
+        element.innerHTML = `Stopper la vidéo <img src="/assets/img/pause_btn.svg" class="play-btn__img" />`;
       } else {
         video.pause();
         element.classList.remove("hide");
         element.innerHTML = `Lire la vidéo <img src="/assets/img/play_btn.svg" alt="Play video" class="play-btn__img" />`;
+      }
+    });
+  });
+}
+const playBtnEn = document.querySelectorAll(".play-btn--en");
+
+if (playBtnEn) {
+  playBtnEn.forEach((element) => {
+    const video = element.parentElement.querySelector("video");
+    let playBtnIcon = element.querySelector(".play-btn__img");
+    element.addEventListener("click", () => {
+      if (video.paused) {
+        video.play();
+        element.classList.add("hide");
+        element.innerHTML = `Pause video <img src="/assets/img/pause_btn.svg" class="play-btn__img" />`;
+      } else {
+        video.pause();
+        element.classList.remove("hide");
+        element.innerHTML = `Play video <img src="/assets/img/play_btn.svg" alt="Play video" class="play-btn__img" />`;
       }
     });
   });
