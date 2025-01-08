@@ -50,3 +50,27 @@ li {
 #first-section {
   scroll-margin-top: calc(var(--space-6x) + -1px);
 }
+
+/* page 404 */
+
+.main--error {
+  background-color: var(--colors-green-2);
+  padding: 0;
+}
+
+.error {
+  width: 100dvw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-1x);
+  font-family: var(--typographies-typo-3);
+  color: var(--colors-green-1);
+  font-size: var(--sizes-size-6);
+}
+
+.error a {
+  color: var(--colors-green-1);
+}
